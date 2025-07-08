@@ -2,53 +2,69 @@
 title: Setup
 ---
 
-FIXME: Setup instructions live in this document. Please specify the tools and
-the data sets the Learner needs to have installed.
+## Workshop overview
 
-## Data Sets
+This tutorial will introduce you to the genome browser format and illustrate how some freely available genome browsers can be used to interrogate a variety of data types, such as gene expression, genomic variation, methylation and many more.
 
-<!--
-FIXME: place any data you want learners to use in `episodes/data` and then use
-       a relative link ( [data zip file](data/lesson-data.zip) ) to provide a
-       link to it, replacing the example.com link.
--->
-Download the [data zip file](https://example.com/FIXME) and unzip it to your Desktop
+###
 
-## Software Setup
+::: callout
+### Learning objectives
 
-::::::::::::::::::::::::::::::::::::::: discussion
+At the end of this introductory workshop, you will:
 
-### Details
+-   Understand the how some types of genomics and expression data are represented in Genome browsers.
+-   Understand gene models and identify differences between transcripts variants.
+-   Determine the tissue/cell type expression profiles of a gene of interest in mouse and human expression data.
+-   Know some basic files types used in Genome browsers and upload and view local BAM files.
+-   Use the ‘Blat’ tool to locate genomic regions with similarity to a sequence of interest.
+-   Create custom interactive views with multiple datatypes to share with colleagues and generate images for publications.
+:::
 
-Setup for different systems can be presented in dropdown menus via a `spoiler`
-tag. They will join to this discussion block, so you can give a general overview
-of the software used in this lesson here and fill out the individual operating
-systems (and potentially add more, e.g. online setup) in the solutions blocks.
+###
 
-:::::::::::::::::::::::::::::::::::::::::::::::::::
+### Description
 
-:::::::::::::::: spoiler
+By focusing on gene expression, this hands on tutorial will provide beginners with an introduction to both the **UCSC Genome browser** and **IGV (Integrated Genome Viewer)**. 
 
-### Windows
+Tools and public datasets will be used to illustrate how the expression of transcript variants can be investigated in different tissues and cell types using public data, including human RNAseq data from [GTEX](https://gtexportal.org/home/) and mouse cell type RNAseq data from [Tabula Muris](https://tabula-muris.ds.czbiohub.org/), as viewed within the UCSC genome browser. A subset of Single cell RNAseq data from the [Allen Brain Atlas Celltax](http://casestudies.brain-map.org/celltax) study will also be downloaded from [SRA](https://www.ncbi.nlm.nih.gov/sra) and visualised in IGV. 
 
-Use PuTTY
+The data and genes used in this workshop are taken from the neuroscience field, however the analysis approaches and tools illustrated can be applied to many research areas.
 
-::::::::::::::::::::::::
+###
 
-:::::::::::::::: spoiler
+### Timing
 
-### MacOS
+The anticipated workshop duration when delivered to a group of participants is **4 hours**. Note that not all the exercises are expected to be completed during the workshop.
 
-Use Terminal.app
+###
 
-::::::::::::::::::::::::
+### Skill level
 
+This workshop is designed for participants with **no previous experience** of using Genome Browsers and **no programming experience**.
 
-:::::::::::::::: spoiler
+###
 
-### Linux
+## Requirements and preparation
 
-Use Terminal
+::: checklist
+### DEVICE
 
-::::::::::::::::::::::::
+Attendees are required to provide their own laptop computers
+:::
 
+::: checklist
+### REQUIRED SOFTWARE
+
+Prior to the workshop:
+
+1.  Download and install [IGV](https://software.broadinstitute.org/software/igv/download) (Free).
+2.  Ensure that [Chrome](https://www.google.com/chrome/) or [FireFox](https://www.mozilla.org/en-US/) are installed and up-to-date.
+3.  Create a user account in the [UCSC genome browser](https://genome.ucsc.edu/).
+:::
+
+::: checklist
+### REQUIRED DATA
+
+No additional data needs to be downloaded prior to this workshop. Required data will be downloaded as part of the tutorial exercises.
+:::
