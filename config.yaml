@@ -45,11 +45,13 @@ contact: 'bioinformatics-training@unimelb.edu.au' # FIXME
 #
 # Order of episodes in your lesson
 episodes:
-- introduction.md
+- 01_genome_browser_background.md
+- 02_data_background.md
 
 # Information for Learners
 learners:
 - setup.md
+- reference.md
 
 # Information for Instructors
 instructors:
