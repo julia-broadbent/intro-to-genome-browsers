@@ -276,6 +276,18 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="04_UCSC_GeneModels.html">4. USCS Genome Browser: Understanding gene models</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -600,8 +612,7 @@ any links that you are not going to use.
 <div class="inner">
 <h3 class="card-title">Questions</h3>
 <ul>
-<li>How do we use the web interface of the UCSC genome browser?</li>
-<li>What tools and public datasets are available in the UCSC genome
+<li>How do we navigate the web interface of the UCSC genome
 browser?</li>
 </ul>
 </div>
@@ -612,17 +623,8 @@ browser?</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Become familiar with the basic features of the UCSC genome browser
-<ul>
-<li>Explore features of particular chromosomal regions</li>
-<li>Investigate specific genes as well as collections of genes</li>
-<li>Search for locations of sequences and markers</li>
-<li>Retrieve annotation information for specific regions or
-genome-wide</li>
-<li>View your own data in context of other annotations</li>
-<li>Compare a region of one genome to genomes of other species</li>
-</ul>
-</li>
+<li>Become familiar with the basic features of the UCSC genome
+browser</li>
 </ul>
 </div>
 </div>
@@ -653,7 +655,7 @@ then click on <em>Reset all user settings</em>.</p>
   FURTHER HELP AND TRAINING
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
 <div class="accordion-body">
 <p>The UCSC genome browser is supported by a rich training resource
 which has new material added regularly to the <a href="https://www.youtube.com/channel/UCQnUJepyNOw0p8s2otX4RYQ/videos" class="external-link">YouTube
@@ -797,12 +799,12 @@ window to your screen</li>
 <nav><div id="nav-tab-2" class="nav nav-tabs" role="tablist">
 <button class="nav-link active" id="nav-tab-2-1" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-2-1" type="button" role="tab" aria-controls="nav-tabpanel-2-1" aria-selected="true">
   <h3 class="tab-header" id="nav-tab-heading-2-1">
-  Try this way…
+  Method #1
   </h3>
 </button>
 <button class="nav-link" id="nav-tab-2-2" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-2-2" type="button" role="tab" aria-controls="nav-tabpanel-2-2" aria-selected="false">
   <h3 class="tab-header" id="nav-tab-heading-2-2">
-  …or this way
+  Method #2
   </h3>
 </button>
 </div>
@@ -811,7 +813,8 @@ window to your screen</li>
 <p><code>Toolbar  &gt;  View  &gt;  Configure browser  &gt;  text size 12  &gt; submit</code></p>
 </div>
 <div id="nav-tabpanel-2-2" class="tab-pane" aria-labelledby="nav-tab-2-2" role="tabpanel">
-<p>Click the ‘configure’ button below the genome view window</p>
+<p>Click the <code>configure</code> button below the genome view
+window</p>
 <p>Ensure that GRCh38 is selected in ‘human assembly’ and click on the
 blue <code>GO</code> box</p>
 </div>
@@ -821,35 +824,37 @@ blue <code>GO</code> box</p>
 <div class="section level4">
 <h4 id="practice-navigating-around-the-genome-view">6. Practice navigating around the genome view<a class="anchor" aria-label="anchor" href="#practice-navigating-around-the-genome-view"></a>
 </h4>
-<div id="checklist2" class="callout checklist">
+<div id="can-you-practise" class="callout checklist">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check-square"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Checklist</h3>
+<div id="can-you-practise" class="callout-inner">
+<h3 class="callout-title">Can you practise:</h3>
 <div class="callout-content">
 <ul>
-<li>move left and right- using both the navigation buttons and your
+<li>Moving left and right, using both the navigation buttons and your
 mouse</li>
-<li>zoom in and out- using navigation buttons</li>
-<li>zoom in to a region of interest- using ‘Drag-and-select’:
+<li>Zooming in and out, using navigation buttons</li>
+<li>Zooming in to a region of interest, using
+<code>Drag-and-select</code>:
 <ul>
-<li>using your mouse select a region of interest by clicking the ruler
+<li>Using your mouse select a region of interest by clicking the ruler
 (position track) at the very top of the genome view window.</li>
-</ul>
-</li>
-<li>This is also how to access the ‘highlight tool’ which you will use
-in a later exercise to highlight a region of interest.
+<li>This is also how to access the <em>highlight tool</em> which you
+will use in a later exercise to highlight a region of interest.
 <ul>
 <li>Click on the down arrow next to the highlight colour to select a
 different colour.</li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+<figure><img src="fig/03UCSC_drag-and-select.png" class="figure mx-auto d-block"></figure>
 </div>
 </div>
 </div>
-<figure><img src="fig/03UCSC_drag-and-select.png" class="figure mx-auto d-block"></figure><div id="keypoints1" class="callout keypoints">
+<div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
 </div>
@@ -857,8 +862,8 @@ different colour.</li>
 <h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
 <ul>
-<li>The UCSC genome browser can be easily configured according to the
-user’s visual preferences and data needs</li>
+<li>The UCSC genome browser can be easily configured according to your
+visual preferences and data needs</li>
 </ul>
 </div>
 </div>
@@ -868,6 +873,413 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
+</section></section><section id="aio-04_UCSC_GeneModels"><p>Content from <a href="04_UCSC_GeneModels.html">USCS Genome Browser: Understanding gene models</a></p>
+<hr>
+<p>Last updated on 2025-07-24 |
+
+        <a href="https://github.com/julia-broadbent/intro-to-genome-browsers/edit/main/episodes/04_UCSC_GeneModels.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How do we interpret gene models represented in the UCSC genome
+browser?
+<ul>
+<li>What tools and public datasets are available in the UCSC genome
+browser?</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<p>Use the UCSC gene browser to:</p>
+<ul>
+<li>Explore features of particular chromosomal regions</li>
+<li>Investigate specific genes as well as collections of genes</li>
+<li>Search for locations of sequences and markers</li>
+<li>Retrieve annotation information for specific regions or genome-wide
+<ul>
+<li>View your own data in context of other annotations</li>
+<li>Compare a region of one genome to genomes of other species</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<section><h2 class="section-heading" id="gene-model-representation">Gene model representation<a class="anchor" aria-label="anchor" href="#gene-model-representation"></a>
+</h2>
+<hr class="half-width">
+<figure><img src="fig/04UCSCGeneModels_gene_model.png" alt="The typical structure of a gene as represented in the UCSC genome browser" class="figure mx-auto d-block"><div class="figcaption">The typical structure of a gene as represented
+in the UCSC genome browser</div>
+</figure></section><section><h2 class="section-heading" id="ntrk2">NTRK2<a class="anchor" aria-label="anchor" href="#ntrk2"></a>
+</h2>
+<hr class="half-width">
+<p>First we are going to familiarise ourselves with the gene model
+representation of the different transcripts of NTRK2.</p>
+<div class="section level4">
+<h4 id="navigate-to-the-ntrk2-gene-position-in-grch38-and-view-the-gene-models-">1. Navigate to the NTRK2 gene position in GRCh38 and view the gene
+models.<a class="anchor" aria-label="anchor" href="#navigate-to-the-ntrk2-gene-position-in-grch38-and-view-the-gene-models-"></a>
+</h4>
+<p>You can navigate to a different region of the genome by typing in the
+position box.</p>
+<div class="tabs">
+<nav><div id="nav-tab-1" class="nav nav-tabs" role="tablist">
+<button class="nav-link active" id="nav-tab-1-1" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-1-1" type="button" role="tab" aria-controls="nav-tabpanel-1-1" aria-selected="true">
+  <h3 class="tab-header" id="nav-tab-heading-1-1">
+  Genomic location
+  </h3>
+</button>
+<button class="nav-link" id="nav-tab-1-2" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-1-2" type="button" role="tab" aria-controls="nav-tabpanel-1-2" aria-selected="false">
+  <h3 class="tab-header" id="nav-tab-heading-1-2">
+  Gene name
+  </h3>
+</button>
+</div>
+</nav><div id="nav-tabContent-1" class="tab-content">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
+<p>If you know the specific location you are interested in, type in the
+location (e.g. <strong>chr9:84,665,760-85,030,334</strong>)</p>
+</div>
+<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
+<p>If you have a gene of interest, you can type in the gene name
+(e.g. <strong>NTRK2</strong>).</p>
+<p>Note the autocompleted suggestions that appear when you start typing.
+You can select from one of the suggestions or click <code>go</code> and
+select from a wider range of options.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section level4">
+<h4 id="hide-all-tracks">2. Hide all tracks<a class="anchor" aria-label="anchor" href="#hide-all-tracks"></a>
+</h4>
+<p>Select the <code>Hide all</code> button below the genome view.</p>
+</div>
+<div class="section level4">
+<h4 id="turn-on-only-the-gencode-v36-genemodels-in-full-viewing-mode">3. Turn on only the <strong>Gencode V36</strong> Genemodels in
+‘full’ viewing mode<a class="anchor" aria-label="anchor" href="#turn-on-only-the-gencode-v36-genemodels-in-full-viewing-mode"></a>
+</h4>
+<p>Select from the blue bar group labelled **Genes and Gene
+predictions*’.</p>
+</div>
+<div class="section level4">
+<h4 id="turn-on-the-conservation-track-to-full">4. Turn on the <strong>Conservation</strong> track to ‘full’<a class="anchor" aria-label="anchor" href="#turn-on-the-conservation-track-to-full"></a>
+</h4>
+<p>Don’t forget to click <code>refresh</code></p>
+</div>
+<div class="section level4">
+<h4 id="zoom-out-and-scroll-across-the-whole-gene">5. Zoom out and scroll across the whole gene<a class="anchor" aria-label="anchor" href="#zoom-out-and-scroll-across-the-whole-gene"></a>
+</h4>
+<p>When you have navigated to the NTRK2 gene, zoom out until you can
+view all of the 5’ UTRs and 3’ UTRs for all transcript variants for this
+gene. Then drag the view left and right to center (like in Google maps)
+or <em>drag and select</em> the region to center the gene in the Genome
+view.</p>
+<figure><img src="fig/04UCSCGeneModels_NTRK2_GENCODE_V36.png" alt="You should now see something like this" class="figure mx-auto d-block"><div class="figcaption">You should now see something like this</div>
+</figure><div id="challenge-1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-1" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 1</h3>
+<div class="callout-content">
+<p>Which strand is the gene encoded on / transcribed from? (+ or -
+strand)</p>
+</div>
+</div>
+</div>
+<div id="challenge-2" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-2" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 2</h3>
+<div class="callout-content">
+<p>Identify the exons, introns and UTRs.</p>
+<p>Do regions of conservation only occur were there are coding
+regions?</p>
+</div>
+</div>
+</div>
+<div id="challenge-3" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-3" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 3</h3>
+<div class="callout-content">
+<p>How many different transcripts variants are there for this gene?</p>
+<p>How do they differ?</p>
+</div>
+</div>
+</div>
+<p>Select a coding region (full height boxes) towards the 3’UTR of the
+gene.</p>
+<div id="challenge-4" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-4" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 4</h3>
+<div class="callout-content">
+<p>Zoom in to the region until you can see the letters of the amino acid
+sequence.</p>
+<p>Why are some amino acid boxes red or green?</p>
+</div>
+</div>
+</div>
+<div id="challenge-5" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-5" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 5</h3>
+<div class="callout-content">
+<p>Zoom in again until you can see each amino acid number.</p>
+<p>Why do different transcripts have different amino acid numbers?</p>
+</div>
+</div>
+</div>
+<div id="note" class="callout">
+<div class="callout-square">
+<i class="callout-icon" data-feather="bell"></i>
+</div>
+<div id="note" class="callout-inner">
+<h3 class="callout-title">NOTE</h3>
+<div class="callout-content">
+<p>Note that one of the transcript names is in white text with a black
+background: this is the transcript you selected from the autocompleted
+list or the search results.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section level4">
+<h4 id="change-the-view-settings-for-the-track">6. Change the <strong>view settings</strong> for the track<a class="anchor" aria-label="anchor" href="#change-the-view-settings-for-the-track"></a>
+</h4>
+<p>Right click on the track grey bar in the left of the genome window to
+access view settings. Switch between <code>dense</code> ,
+<code>squish</code> , <code>pack</code> , and <code>full</code><br>
+to see how it changes the representation of the models.</p>
+</div>
+<div class="section level4">
+<h4 id="reveal-the-ensembl-id-for-each-transcript">7. Reveal the Ensembl ID for each transcript<a class="anchor" aria-label="anchor" href="#reveal-the-ensembl-id-for-each-transcript"></a>
+</h4>
+<p>Go to the configuration page for the <strong>GENCODE V36</strong>
+track and change check the box to also reveal the <strong>Ensembl
+ID</strong> in the label.</p>
+<p>The transcript names are now too long to fit on the screen. You can
+use the configuration page (like you did to chane the font size at the
+beginning of the workshop) and change the number of characters in the
+label so that you can see the entire transcript label.</p>
+</div>
+<div class="section level3">
+<h3 id="check-your-understanding">Check your understanding<a class="anchor" aria-label="anchor" href="#check-your-understanding"></a>
+</h3>
+<div id="question-1" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="question-1" class="callout-inner">
+<h3 class="callout-title">Question 1</h3>
+<div class="callout-content">
+<p>Which transcript encodes the shortest amino acid sequence?</p>
+<figure><img src="fig/04UCSCGeneModels_quizQ1.jpg" class="figure mx-auto d-block"></figure>
+</div>
+</div>
+</div>
+<div id="accordionSolution1" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
+  <h4 class="accordion-header" id="headingSolution1">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div class="accordion-body">
+<p><strong>ENST00000352327.5</strong></p>
+<p>This transcript does not include one of the large coding regions and
+the coding region in the terminal exon is also slightly shorter.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="question-2" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="question-2" class="callout-inner">
+<h3 class="callout-title">Question 2</h3>
+<div class="callout-content">
+<p>Which transcript has the longest 3’UTR?</p>
+<figure><img src="fig/04UCSCGeneModels_quizQ2.jpg" class="figure mx-auto d-block"></figure>
+</div>
+</div>
+</div>
+<div id="accordionSolution2" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
+  <h4 class="accordion-header" id="headingSolution2">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div class="accordion-body">
+<p><strong>ENST00000396976.6</strong></p>
+<p>Although the last two exons of ENST00000396972.2 are UTR rather than
+coding sequence, it is still not as long as the 3’UTR of
+ENST00000396976.6</p>
+</div>
+</div>
+</div>
+</div>
+<div id="question-3" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="question-3" class="callout-inner">
+<h3 class="callout-title">Question 3</h3>
+<div class="callout-content">
+<p>Which transcripts appear to encode the same protein product?</p>
+<figure><img src="fig/04UCSCGeneModels_quizQ3.jpg" class="figure mx-auto d-block"></figure>
+</div>
+</div>
+</div>
+<div id="accordionSolution3" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
+  <h4 class="accordion-header" id="headingSolution3">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div class="accordion-body">
+<p><strong>ENST00000420986.6, ENST00000280352.13 and
+ENST00000393047.8</strong></p>
+<p>Notice the height of the boxes for the first three exons:
+ENST00000532163.5 appears to encode a different CDS from the other
+transcripts.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="question-4" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="question-4" class="callout-inner">
+<h3 class="callout-title">Question 4</h3>
+<div class="callout-content">
+<p>Which transcript has the longest 5’UTR?</p>
+<figure><img src="fig/04UCSCGeneModels_quizQ4.jpg" class="figure mx-auto d-block"></figure>
+</div>
+</div>
+</div>
+<div id="accordionSolution4" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
+  <h4 class="accordion-header" id="headingSolution4">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
+<div class="accordion-body">
+<p><strong>ENST00000532681.5</strong></p>
+<p>This transcript is encoded on the reverse strand.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="question-5" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="question-5" class="callout-inner">
+<h3 class="callout-title">Question 5</h3>
+<div class="callout-content">
+<p>Which transcript has the longest CDS?</p>
+<figure><img src="fig/04UCSCGeneModels_quizQ5.jpg" class="figure mx-auto d-block"></figure>
+</div>
+</div>
+</div>
+<div id="accordionSolution5" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution5" aria-expanded="false" aria-controls="collapseSolution5">
+  <h4 class="accordion-header" id="headingSolution5">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution5" class="accordion-collapse collapse" aria-labelledby="headingSolution5" data-bs-parent="#accordionSolution5">
+<div class="accordion-body">
+<p><strong>ENST00000253801.7</strong></p>
+<p>This transcript is encoded on the forward strand.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="question-6" class="callout challenge">
+<div class="callout-square">
+<i class="callout-icon" data-feather="zap"></i>
+</div>
+<div id="question-6" class="callout-inner">
+<h3 class="callout-title">Question 6</h3>
+<div class="callout-content">
+<p>Which transcript has the longest 5’UTR?</p>
+<figure><img src="fig/04UCSCGeneModels_quizQ6.jpg" class="figure mx-auto d-block"></figure>
+</div>
+</div>
+</div>
+<div id="accordionSolution6" class="accordion challenge-accordion accordion-flush">
+<div class="accordion-item">
+<button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution6" aria-expanded="false" aria-controls="collapseSolution6">
+  <h4 class="accordion-header" id="headingSolution6">
+  Answer
+  </h4>
+</button>
+<div id="collapseSolution6" class="accordion-collapse collapse" aria-labelledby="headingSolution6" data-bs-parent="#accordionSolution6">
+<div class="accordion-body">
+<p><strong>ENST00000589334.5</strong></p>
+<p>This transcript is encoded on the reverse strand.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="bdnf">BDNF<a class="anchor" aria-label="anchor" href="#bdnf"></a>
+</h2>
+<hr class="half-width">
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<figure><img src="fig/04UCSCGeneModels_gene_model.png" alt="The typical structure of a gene as represented in the UCSC genome browser" class="figure mx-auto d-block"><div class="figcaption">The typical structure of a gene as represented
+in the UCSC genome browser</div>
+</figure>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
 </section></section>
 </div>
     </main>

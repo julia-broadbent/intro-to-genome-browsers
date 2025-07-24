@@ -118,11 +118,11 @@
   Introduction to Genome Browsers
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 56%" class="percentage">
-    56%
+<aside class="col-md-12 lesson-progress"><div style="width: 28%" class="percentage">
+    28%
   </div>
   <div class="progress uom">
-    <div class="progress-bar uom" role="progressbar" style="width: 56%" aria-valuenow="56" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar uom" role="progressbar" style="width: 28%" aria-valuenow="28" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -242,6 +242,15 @@
   </div><!--/div.accordion-item-->
 </div><!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush5">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading5">
+        <a href="04_UCSC_GeneModels.html">4. USCS Genome Browser: Understanding gene models</a>
+    </div><!--/div.accordion-header-->
+
+  </div><!--/div.accordion-item-->
+</div><!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -285,7 +294,7 @@
   <div class="col-xl-8 col-lg-12 primary-content">
     <nav class="lesson-content mx-md-4" aria-label="Previous and Next Chapter"><!-- content for small screens --><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="02_data_background.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="index.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="04_UCSC_GeneModels.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
@@ -293,8 +302,8 @@
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Previous: Data used in this
         </a>
-        <a class="chapter-link float-end" href="index.html" rel="next">
-          Home
+        <a class="chapter-link float-end" href="04_UCSC_GeneModels.html" rel="next">
+          Next: USCS Genome Browser:...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
@@ -319,8 +328,7 @@
 <div class="card-body">
 <div class="inner">
 <h3 class="card-title">Questions</h3>
-<ul><li>How do we use the web interface of the UCSC genome browser?</li>
-<li>What tools and public datasets are available in the UCSC genome
+<ul><li>How do we navigate the web interface of the UCSC genome
 browser?</li>
 </ul></div>
 </div>
@@ -329,15 +337,8 @@ browser?</li>
 <div class="card-body">
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
-<ul><li>Become familiar with the basic features of the UCSC genome browser
-<ul><li>Explore features of particular chromosomal regions</li>
-<li>Investigate specific genes as well as collections of genes</li>
-<li>Search for locations of sequences and markers</li>
-<li>Retrieve annotation information for specific regions or
-genome-wide</li>
-<li>View your own data in context of other annotations</li>
-<li>Compare a region of one genome to genomes of other species</li>
-</ul></li>
+<ul><li>Become familiar with the basic features of the UCSC genome
+browser</li>
 </ul></div>
 </div>
 </div>
@@ -363,7 +364,7 @@ then click on <em>Reset all user settings</em>.</p>
   FURTHER HELP AND TRAINING
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
 <div class="accordion-body">
 <p>The UCSC genome browser is supported by a rich training resource
 which has new material added regularly to the <a href="https://www.youtube.com/channel/UCQnUJepyNOw0p8s2otX4RYQ/videos" class="external-link">YouTube
@@ -490,12 +491,12 @@ window to your screen</li>
 <nav><div id="nav-tab-2" class="nav nav-tabs" role="tablist">
 <button class="nav-link active" id="nav-tab-2-1" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-2-1" type="button" role="tab" aria-controls="nav-tabpanel-2-1" aria-selected="true">
   <h3 class="tab-header" id="nav-tab-heading-2-1">
-  Try this way…
+  Method #1
   </h3>
 </button>
 <button class="nav-link" id="nav-tab-2-2" data-bs-toggle="tab" data-bs-target="#nav-tabpanel-2-2" type="button" role="tab" aria-controls="nav-tabpanel-2-2" aria-selected="false">
   <h3 class="tab-header" id="nav-tab-heading-2-2">
-  …or this way
+  Method #2
   </h3>
 </button>
 </div>
@@ -504,7 +505,8 @@ window to your screen</li>
 <p><code>Toolbar  &gt;  View  &gt;  Configure browser  &gt;  text size 12  &gt; submit</code></p>
 </div>
 <div id="nav-tabpanel-2-2" class="tab-pane" aria-labelledby="nav-tab-2-2" role="tabpanel">
-<p>Click the ‘configure’ button below the genome view window</p>
+<p>Click the <code>configure</code> button below the genome view
+window</p>
 <p>Ensure that GRCh38 is selected in ‘human assembly’ and click on the
 blue <code>GO</code> box</p>
 </div>
@@ -513,37 +515,38 @@ blue <code>GO</code> box</p>
 </div>
 <div class="section level4">
 <h4 id="practice-navigating-around-the-genome-view">6. Practice navigating around the genome view<a class="anchor" aria-label="anchor" href="#practice-navigating-around-the-genome-view"></a></h4>
-<div id="checklist2" class="callout checklist">
+<div id="can-you-practise" class="callout checklist">
 <div class="callout-square">
 <i class="callout-icon" data-feather="check-square"></i>
 </div>
-<div class="callout-inner">
-<h3 class="callout-title">Checklist</h3>
+<div id="can-you-practise" class="callout-inner">
+<h3 class="callout-title">Can you practise:</h3>
 <div class="callout-content">
-<ul><li>move left and right- using both the navigation buttons and your
+<ul><li>Moving left and right, using both the navigation buttons and your
 mouse</li>
-<li>zoom in and out- using navigation buttons</li>
-<li>zoom in to a region of interest- using ‘Drag-and-select’:
-<ul><li>using your mouse select a region of interest by clicking the ruler
+<li>Zooming in and out, using navigation buttons</li>
+<li>Zooming in to a region of interest, using
+<code>Drag-and-select</code>:
+<ul><li>Using your mouse select a region of interest by clicking the ruler
 (position track) at the very top of the genome view window.</li>
-</ul></li>
-<li>This is also how to access the ‘highlight tool’ which you will use
-in a later exercise to highlight a region of interest.
+<li>This is also how to access the <em>highlight tool</em> which you
+will use in a later exercise to highlight a region of interest.
 <ul><li>Click on the down arrow next to the highlight colour to select a
 different colour.</li>
 </ul></li>
-</ul></div>
+</ul></li>
+</ul><figure><img src="fig/03UCSC_drag-and-select.png" class="figure mx-auto d-block"></figure></div>
 </div>
 </div>
-<figure><img src="fig/03UCSC_drag-and-select.png" class="figure mx-auto d-block"></figure><div id="keypoints1" class="callout keypoints">
+<div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
 </div>
 <div class="callout-inner">
 <h3 class="callout-title">Key Points</h3>
 <div class="callout-content">
-<ul><li>The UCSC genome browser can be easily configured according to the
-user’s visual preferences and data needs</li>
+<ul><li>The UCSC genome browser can be easily configured according to your
+visual preferences and data needs</li>
 </ul></div>
 </div>
 </div>
@@ -555,7 +558,7 @@ any links that you are not going to use.
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="02_data_background.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
-        <a class="chapter-link float-end" href="index.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
+        <a class="chapter-link float-end" href="04_UCSC_GeneModels.html">Next<i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i></a>
       </div>
       <!-- content for large screens -->
       <div class="d-none d-sm-none d-md-block">
@@ -563,8 +566,8 @@ any links that you are not going to use.
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>
           Previous: Data used in this
         </a>
-        <a class="chapter-link float-end" href="index.html" rel="next">
-          Home
+        <a class="chapter-link float-end" href="04_UCSC_GeneModels.html" rel="next">
+          Next: USCS Genome Browser:...
           <i aria-hidden="true" class="small-arrow" data-feather="arrow-right"></i>
         </a>
       </div>
