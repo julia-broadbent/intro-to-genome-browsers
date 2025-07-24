@@ -61,6 +61,8 @@ Prior to the workshop:
 1.  Download and install [IGV](https://software.broadinstitute.org/software/igv/download) (Free).
 2.  Ensure that [Chrome](https://www.google.com/chrome/) or [FireFox](https://www.mozilla.org/en-US/) are installed and up-to-date.
 3.  Create a user account in the [UCSC genome browser](https://genome.ucsc.edu/).
+
+This workshop will be run using the above freely available web interfaces and free software with graphical user interfaces. 
 :::
 
 ::: checklist

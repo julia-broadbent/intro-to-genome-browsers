@@ -1,131 +1,121 @@
 ---
-title: "Using RMarkdown"
-teaching: 10
-exercises: 2
+title: "Background"
+teaching: 15
+exercises: 0
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using R Markdown and `{sandpaper}`?
+- What are genome browsers and why are they useful?
+- What data are we using in this workshop to demonstrate the use of genome browser tools?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Understand the utility of genome browsers 
+- Describe the biological pathway that will be referenced throughout this tutorial
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
-## Introduction
+## Introduction to genome browsers
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown](https://pandoc.org/MANUAL.txt) for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench](https://carpentries.github.io/sandpaper-docs/) for full documentation.
+Genome browsers are invaluable for 
+**viewing and interpreting the many different types of data that can be anchored to genomic positions.** 
+These include variation, transcription, 
+the many types regulatory data such as methylation and transcription factor binding, 
+and disease associations. The larger genome browsers serve as data archives for valuable 
+public datasets facilitating **visualisation and analysis of different data types.** 
+It is also possible to load your own data into some of the public genome browsers.
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson template:
-
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
-
-:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
-
-Inline instructor notes can help inform instructors of timing challenges
-associated with the lessons. They appear in the "Instructor View"
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::: challenge 
-
-## Challenge 1: Can you do it?
-
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
-
-:::::::::::::::::::::::: solution 
-
-## Output
- 
-```output
-[1] "This new lesson looks good"
-```
-
-:::::::::::::::::::::::::::::::::
+By enabling viewing of one type of data in the context of another, the use of Genome browsers 
+can reveal important information about gene regulation in both normal development and disease, 
+and assist hypothesis development relating to genotype phenotype relationships.
 
 
-## Challenge 2: how do you nest solutions within challenge blocks?
+::: callout
+### COMMONLY USED GENOME BROWSERS
 
-:::::::::::::::::::::::: solution 
+All researchers are encouraged to become familiar with the use of some of the main browsers, such as:
 
-You can add a line with at least three colons and a `solution` tag.
+- [The UCSC Genome Browser](https://genome.ucsc.edu/) (RRID:SCR_005780)
+- [ESEMBL Genome Browser](https://www.ensembl.org/index.html) (RRID:SCR_013367)
+- [Epigenome browser at WashU](https://epigenomegateway.wustl.edu/browser/) (RRID:SCR_006208)
+- [Integrative Genomics Viewer (IGV)](http://software.broadinstitute.org/software/igv/) (RRID:SCR_011793)
 
-:::::::::::::::::::::::::::::::::
-::::::::::::::::::::::::::::::::::::::::::::::::
+:::
 
-## Figures
+These browsers are designed for use by researchers without programming experience 
+and the developers often provide extensive tutorials and cases studies demonstrating 
+the myriad of ways in which data can be loaded and interpreted to assist in develop 
+and supporting your research hypothesis.
 
-You can also include figures generated from R Markdown:
+Many large genomic projects also incorporate genome browsers into their web portals 
+to enable users to easily search and view the data. These include:
 
+- [GTEx](https://gtexportal.org/home/)
+- [gnomAD](https://gnomad.broadinstitute.org/)
 
-``` r
-pie(
-  c(Sky = 78, "Sunny side of pyramid" = 17, "Shady side of pyramid" = 5), 
-  init.angle = 315, 
-  col = c("deepskyblue", "yellow", "yellow3"), 
-  border = FALSE
-)
-```
+## The human reference genome
 
-<div class="figure" style="text-align: center">
-<img src="fig/introduction-rendered-pyramid-1.png" alt="pie chart illusion of a pyramid"  />
-<p class="caption">Sun arise each and every morning</p>
-</div>
+Genome browsers rely on a **common reference genome** for each species in order to map data 
+from different sources to the correct location. A consortium has agreed on a common numbering 
+for each position on the genome for each species. However, this position will vary based on 
+the version of the genome, as error correction and updates can change the numbering. 
+Therefore it is very important to know **which version of the genome your data of interest is aligned to.**
 
-Or you can use standard markdown for static figures with the following syntax:
+The sequence for the human reference genome was accumulated up over many years from sequence 
+data from many different sources and does not represent the sequence of one single person. 
+Instead it is a composite of fragments of the genome from many different people. Also, unlike 
+the human genome which is diploid, the human reference genome is haploid. That is there is only 
+one copy of each chromosome. It therefore does not reflect the variation on the population, or 
+even the most common variants in the human genome. *Exploring variation within human genome is *
+*very important and facilitated by genome browsers but not covered in this workshop.*
 
-`![optional caption that appears below the figure](figure url){alt='alt text for
-accessibility purposes'}`
+::: spoiler
 
-![You belong in The Carpentries!](https://raw.githubusercontent.com/carpentries/logo/master/Badge_Carpentries.svg){alt='Blue Carpentries hex person logo with no text.'}
+## FURTHER READING
 
-::::::::::::::::::::::::::::::::::::: callout
+If you would like to learn more about genome build version number and updates, please go to:
 
-Callout sections can highlight information.
+- [The Genome reference consortium](https://www.ncbi.nlm.nih.gov/grc)
+- [UCSC genome browser: What does the nomenclature mean?](https://genome.ucsc.edu/FAQ/FAQreleases.html)
+- [UCSC genome browser: Updates and blog pages](https://genome.ucsc.edu/goldenPath/newsarch.html)
 
-They are sometimes used to emphasise particularly important points
-but are also used in some lessons to present "asides": 
-content that is not central to the narrative of the lesson,
-e.g. by providing the answer to a commonly-asked question.
+:::
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+## Introduction to the data used in this workshop
 
+This tutorial uses the a well known and important signalling pathway in the central nervous system (CNS) 
+to illustrate some of the genome browser tools and utility.
 
-## Math
+### BDNF and TrkB signalling
 
-One of our episodes contains $\LaTeX$ equations when describing how to create
-dynamic reports with {knitr}, so we now use mathjax to describe this:
+Brain Derived Neurotrophic factor (BDNF) protein is an important neurotrophin responsible for 
+regulating many aspects of growth and development in different cells within the CNS. TrkB 
+is an important receptor that binds extracellular BDNF and propagates the intracellular 
+signalling response via a tyrosine kinase. This TrkB receptor protein is encoded by the NTRK2 gene.
 
-`$\alpha = \dfrac{1}{(1 - \beta)^2}$` becomes: $\alpha = \dfrac{1}{(1 - \beta)^2}$
+The NRK2 gene expresses a number of different transcript variants in different cell types. 
+The most well studied of these is the full length TrkB receptor referred to as TrkB, 
+which is mainly expressed in neuronal cell types. The other transcript variants all 
+express the same exons encoding the extracellular domain of the receptor 
+(shown in the figure here in green) but have truncated intracellular domains, 
+which do not include the tyrosine kinase domain and thus activate different signalling 
+pathways upon binding to BDNF. None of these truncated protein products have been well studied, 
+but the most highly expressed receptor variant is known as TrkB-T1, and is known to be highly expressed in astocytes.
 
-Cool, right?
+![Graphical representation of the BDNF and TrkB signalling pathway](episodes/fig/introduction_TrkB-schema-eng.png)
 
-::::::::::::::::::::::::::::::::::::: keypoints 
+Since the transcript variants are differently expressed in different cell types within the CNS, 
+the NTRK2 gene is a very useful example for exploring cell type specific transcript expression in available public data.
 
-- Use `.md` files for episodes when you want static content
-- Use `.Rmd` files for episodes when you need to generate output
-- Run `sandpaper::check_lesson()` to identify any issues with your lesson
-- Run `sandpaper::build_lesson()` to preview your lesson locally
+### Major CNS cell types
 
-::::::::::::::::::::::::::::::::::::::::::::::::
+- Neuron (yellow cell in the image)
+- Astrocyte
+- Oligodendrocyte
+- Microglia
+- Ependymal
 
-[r-markdown]: https://rmarkdown.rstudio.com/
+![Image portraying the structure of different CNS cell types: neurons (yellow), astrocytes, microglia, oligodendrocytes and ependymal cells](episodes/fig/introduction_CNScelltypes.jpg)

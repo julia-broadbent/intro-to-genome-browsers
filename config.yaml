@@ -45,7 +45,7 @@ contact: 'bioinformatics-training@unimelb.edu.au' # FIXME
 #
 # Order of episodes in your lesson
 episodes:
-- introduction.Rmd
+- introduction.md
 
 # Information for Learners
 learners:
