@@ -47,6 +47,7 @@ contact: 'bioinformatics-training@unimelb.edu.au' # FIXME
 episodes:
 - 01_genome_browser_background.md
 - 02_data_background.md
+- 03_UCSC_setup.md
 
 # Information for Learners
 learners:
