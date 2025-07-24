@@ -83,3 +83,11 @@ If you would like to learn more about genome build version number and updates, p
 - [UCSC genome browser: Updates and blog pages](https://genome.ucsc.edu/goldenPath/newsarch.html)
 
 :::
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- Genome browsers rely on a common reference genome for each species to map data to the correct location
+- Genome browsers allow us to interpret and view many different types of data associated with genomic positions
+- Genome browsers are designed to be used by researchers without programming experience 
+
+::::::::::::::::::::::::::::::::::::::::::::::::
