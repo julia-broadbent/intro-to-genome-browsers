@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/01_genome_browser_background.html</loc>
+  </url>
+  <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/02_data_background.html</loc>
+  </url>
+  <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/404.html</loc>
   </url>
   <url>
@@ -17,6 +23,12 @@
   </url>
   <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/index.html</loc>
+  </url>
+  <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/instructor/01_genome_browser_background.html</loc>
+  </url>
+  <url>
+    <loc>melbournebioinformatics.github.io/uom-varnish/instructor/02_data_background.html</loc>
   </url>
   <url>
     <loc>melbournebioinformatics.github.io/uom-varnish/instructor/404.html</loc>
