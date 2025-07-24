@@ -4,5 +4,6 @@ title: 'Reference'
 
 ## Glossary
 
-This is a placeholder file. Please add content here. 
+- **BDNF:** Brain Derived Neurotrophic factor
+- **CNS:** central nervous system
 
