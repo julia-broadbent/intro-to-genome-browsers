@@ -1,25 +1,18 @@
 ---
 title: "UCSC Genome Browser: Setup"
-teaching: 10
-exercises: 2
+teaching: 20
+exercises: 6
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do we use the web interface of the UCSC genome browser?
-- What tools and public datasets are available in the UCSC genome browser?
+- How do we navigate the web interface of the UCSC genome browser?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
 - Become familiar with the basic features of the UCSC genome browser
-  - Explore features of particular chromosomal regions
-  - Investigate specific genes as well as collections of genes
-  - Search for locations of sequences and markers
-  - Retrieve annotation information for specific regions or genome-wide
-  - View your own data in context of other annotations
-  - Compare a region of one genome to genomes of other species
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -132,13 +125,13 @@ Use the ‘Configure’ tool to change the font size to 12
 
 ::: tab
 
-### Try this way...
+### Method #1
 
 `Toolbar  >  View  >  Configure browser  >  text size 12  > submit`
 
-### ...or this way
+### Method #2
 
-Click the 'configure' button below the genome view window
+Click the `configure` button below the genome view window
 
 Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO` box
 
@@ -148,20 +141,22 @@ Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO
 
 ::: checklist
 
-- move left and right- using both the navigation buttons and your mouse
-- zoom in and out- using navigation buttons
-- zoom in to a region of interest- using ‘Drag-and-select’:
-  - using your mouse select a region of interest by clicking the ruler (position track) at the very top of the genome view window.
-- This is also how to access the ‘highlight tool’ which you will use in a later exercise to highlight a region of interest.
-  - Click on the down arrow next to the highlight colour to select a different colour.
+## Can you practise:
 
-:::
+- Moving left and right, using both the navigation buttons and your mouse
+- Zooming in and out, using navigation buttons
+- Zooming in to a region of interest, using `Drag-and-select`:
+  - Using your mouse select a region of interest by clicking the ruler (position track) at the very top of the genome view window.
+  - This is also how to access the *highlight tool* which you will use in a later exercise to highlight a region of interest.
+    - Click on the down arrow next to the highlight colour to select a different colour.
 
 ![](episodes/fig/03UCSC_drag-and-select.png)
 
+:::
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- The UCSC genome browser can be easily configured according to the user's visual preferences and data needs
+- The UCSC genome browser can be easily configured according to your visual preferences and data needs
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
