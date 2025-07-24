@@ -28,7 +28,7 @@ regulating many aspects of growth and development in different cells within the 
 is an important receptor that binds extracellular BDNF and propagates the intracellular 
 signalling response via a tyrosine kinase. This TrkB receptor protein is encoded by the NTRK2 gene.
 
-The NRK2 gene expresses a number of different transcript variants in different cell types. 
+The NTRK2 gene expresses a number of different transcript variants in different cell types. 
 The most well studied of these is the full length TrkB receptor referred to as TrkB, 
 which is mainly expressed in neuronal cell types. The other transcript variants all 
 express the same exons encoding the extracellular domain of the receptor 
@@ -51,3 +51,9 @@ the NTRK2 gene is a very useful example for exploring cell type specific transcr
 - Ependymal
 
 ![Image portraying the structure of different CNS cell types: neurons (yellow), astrocytes, microglia, oligodendrocytes and ependymal cells](episodes/fig/introduction_CNScelltypes.jpg)
+
+::::::::::::::::::::::::::::::::::::: keypoints 
+
+- The NTRK2 gene is a useful example for exploring cell type specific transcript expression in public data
+
+::::::::::::::::::::::::::::::::::::::::::::::::
