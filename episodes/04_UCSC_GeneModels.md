@@ -6,16 +6,19 @@ exercises: 2
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- What tools and public datasets are available in the UCSC genome browser?
+- How do we interpret gene models represented in the UCSC genome browser?
+  - What tools and public datasets are available in the UCSC genome browser?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-  - Explore features of particular chromosomal regions
-  - Investigate specific genes as well as collections of genes
-  - Search for locations of sequences and markers
-  - Retrieve annotation information for specific regions or genome-wide
+Use the UCSC gene browser to:
+
+- Explore features of particular chromosomal regions
+- Investigate specific genes as well as collections of genes
+- Search for locations of sequences and markers
+- Retrieve annotation information for specific regions or genome-wide
   - View your own data in context of other annotations
   - Compare a region of one genome to genomes of other species
 
@@ -69,15 +72,15 @@ the gene in the Genome view.
 
 ![You should now see something like this](episodes/fig/04UCSCGeneModels_NTRK2_GENCODE_V36.png)
 
-::: challenge
+:::::::::: challenge
 
 ## CHALLENGE 1
 
 Which strand is the gene encoded on / transcribed from? (+ or - strand)
 
-:::
+::::::::::
 
-::: challenge
+::::::::: challenge
 
 ## CHALLENGE 2
 
@@ -85,9 +88,9 @@ Identify the exons, introns and UTRs.
 
 Do regions of conservation only occur were there are coding regions?
 
-:::
+::::::::::
 
-::: challenge
+:::::::::::: challenge
 
 ## CHALLENGE 3
 
@@ -95,12 +98,12 @@ How many different transcripts variants are there for this gene?
 
 How do they differ?
 
-:::
+::::::::::::
 
 Select a coding region (full height boxes) towards the 3’UTR of the gene.
 
 
-::: challenge
+:::::::::::: challenge
 
 ## CHALLENGE 4
 
@@ -108,9 +111,9 @@ Zoom in to the region until you can see the letters of the amino acid sequence.
 
 Why are some amino acid boxes red or green?
 
-:::
+:::::::::::::
 
-::: challenge
+:::::::::::: challenge
 
 ## CHALLENGE 5
 
@@ -118,7 +121,7 @@ Zoom in again until you can see each amino acid number.
 
 Why do different transcripts have different amino acid numbers?
 
-:::
+::::::::::::
 
 ::: callout
 
@@ -153,7 +156,7 @@ and change the number of characters in the label so that you can see the entire 
 
 Which transcript encodes the shortest amino acid sequence?
 
-![](episodes/fig/04UCSCGeneModels_quizQ1)
+![](episodes/fig/04UCSCGeneModels_quizQ1.jpg)
 
 ::: solution 
 
@@ -169,7 +172,7 @@ This transcript does not include one of the large coding regions and the coding 
 
 Which transcript has the longest 3'UTR?
 
-![](episodes/fig/04UCSCGeneModels_quizQ2)
+![](episodes/fig/04UCSCGeneModels_quizQ2.jpg)
 
 ::: solution 
 
@@ -186,7 +189,7 @@ it is still not as long as the 3'UTR of ENST00000396976.6
 
 Which transcripts appear to encode the same protein product?
 
-![](episodes/fig/04UCSCGeneModels_quizQ3)
+![](episodes/fig/04UCSCGeneModels_quizQ3.jpg)
 
 ::: solution 
 
@@ -203,7 +206,7 @@ appears to encode a different CDS from the other transcripts.
 
 Which transcript has the longest 5'UTR?
 
-![](episodes/fig/04UCSCGeneModels_quizQ4)
+![](episodes/fig/04UCSCGeneModels_quizQ4.jpg)
 
 ::: solution 
 
@@ -219,7 +222,7 @@ This transcript is encoded on the reverse strand.
 
 Which transcript has the longest CDS?
 
-![](episodes/fig/04UCSCGeneModels_quizQ5)
+![](episodes/fig/04UCSCGeneModels_quizQ5.jpg)
 
 ::: solution 
 
@@ -235,7 +238,7 @@ This transcript is encoded on the forward strand.
 
 Which transcript has the longest 5'UTR?
 
-![](episodes/fig/04UCSCGeneModels_quizQ6)
+![](episodes/fig/04UCSCGeneModels_quizQ6.jpg)
 
 ::: solution 
 
