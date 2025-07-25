@@ -50,6 +50,7 @@ episodes:
 - 03_UCSC_setup.md
 - 04_UCSC_GeneModels.md
 - 05_BLAT.md
+- 06_gene_expression_data.md
 
 # Information for Learners
 learners:
