@@ -301,6 +301,18 @@
 </div>
 <!--/div.accordion-flush-->
 
+<div class="accordion accordion-flush" id="accordionFlush7">
+  <div class="accordion-item">
+    <div class="accordion-header" id="flush-heading7">
+        <a href="06_gene_expression_data.html">6. Gene expression data</a>
+    </div>
+<!--/div.accordion-header-->
+
+  </div>
+<!--/div.accordion-item-->
+</div>
+<!--/div.accordion-flush-->
+
                 </div>
               </div>
             </div>
@@ -474,7 +486,7 @@ but not covered in this workshop.</em></p>
   FURTHER READING
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
 <div class="accordion-body">
 <p>If you would like to learn more about genome build version number and
 updates, please go to:</p>
@@ -735,10 +747,10 @@ position<a class="anchor" aria-label="anchor" href="#select-and-open-the-human-g
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
 <p><code>Toolbar  &gt;  Genomes  &gt;  HumanGRCh38</code></p>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
+<div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
 <p><code>Toolbar  &gt;  Genomes</code></p>
 <p>Ensure that GRCh38 is selected in ‘human assembly’ and click on the
 blue <code>GO</code> box</p>
@@ -826,10 +838,10 @@ window to your screen</li>
 </button>
 </div>
 </nav><div id="nav-tabContent-2" class="tab-content">
-<div id="nav-tabpanel-2-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-2-1">
+<div id="nav-tabpanel-2-1" class="tab-pane show active" aria-labelledby="nav-tab-2-1" role="tabpanel">
 <p><code>Toolbar  &gt;  View  &gt;  Configure browser  &gt;  text size 12  &gt; submit</code></p>
 </div>
-<div id="nav-tabpanel-2-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-2-2">
+<div id="nav-tabpanel-2-2" class="tab-pane" aria-labelledby="nav-tab-2-2" role="tabpanel">
 <p>Click the <code>configure</code> button below the genome view
 window</p>
 <p>Ensure that GRCh38 is selected in ‘human assembly’ and click on the
@@ -962,11 +974,11 @@ position box.</p>
 </button>
 </div>
 </nav><div id="nav-tabContent-1" class="tab-content">
-<div id="nav-tabpanel-1-1" class="tab-pane show active" aria-labelledby="nav-tab-1-1" role="tabpanel">
+<div id="nav-tabpanel-1-1" class="tab-pane show active" role="tabpanel" aria-labelledby="nav-tab-1-1">
 <p>If you know the specific location you are interested in, type in the
 location (e.g. <strong>chr9:84,665,760-85,030,334</strong>)</p>
 </div>
-<div id="nav-tabpanel-1-2" class="tab-pane" aria-labelledby="nav-tab-1-2" role="tabpanel">
+<div id="nav-tabpanel-1-2" class="tab-pane" role="tabpanel" aria-labelledby="nav-tab-1-2">
 <p>If you have a gene of interest, you can type in the gene name
 (e.g. <strong>NTRK2</strong>).</p>
 <p>Note the autocompleted suggestions that appear when you start typing.
@@ -1530,8 +1542,8 @@ regions of different transcripts<a class="anchor" aria-label="anchor" href="#use
 <p><code>Toolbar  &gt;  View  &gt;  Multi-Region</code> select
 <code>Show exons using GENCODE V36</code></p>
 <blockquote>
-<p>I have created a ‘public session’ of the Blat NTRK2 exercise you can
-view it from the link in the sessions</p>
+<p>I have created a ‘public session’ of the BLAT NTRK2 exercise. You can
+view this from the link in the sessions.</p>
 <p><code>Toolbar  &gt;  My data   &gt;  Public session  &gt;</code>
 search for <strong>hg38_NTRK2_blat_probes</strong></p>
 </blockquote>
@@ -1555,6 +1567,286 @@ Place links that you need to refer to multiple times across pages here. Delete
 any links that you are not going to use.
  -->
 </div>
+</div>
+</section></section><section id="aio-06_gene_expression_data"><p>Content from <a href="06_gene_expression_data.html">Gene expression data</a></p>
+<hr>
+<p>Last updated on 2025-07-25 |
+
+        <a href="https://github.com/julia-broadbent/intro-to-genome-browsers/edit/main/episodes/06_gene_expression_data.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+<p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 33 minutes</p>
+<div class="text-end">
+          <button role="button" aria-pressed="false" tabindex="0" id="expand-code" class="pull-right" data-expand="Expand All Solutions " data-collapse="Collapse All Solutions "> Expand All Solutions <i aria-hidden="true" data-feather="plus"></i></button>
+        </div>
+<div class="overview card">
+<h2 class="card-header">Overview</h2>
+<div class="row g-0">
+<div class="col-md-4">
+<div class="card-body">
+<div class="inner">
+<h3 class="card-title">Questions</h3>
+<ul>
+<li>How can we explore gene expression data in the UCSC genome
+browser?</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="col-md-8">
+<div class="card-body">
+<div class="inner bordered">
+<h3 class="card-title">Objectives</h3>
+<p>Use the UCSC gene browser to:</p>
+<ul>
+<li>Interpret gene expression data from multiple sources</li>
+<li>Compare a region of one genome to genomes of other species</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<figure><img src="../fig/06geneexpression_coverage_plot.png" class="figure mx-auto d-block"></figure><section><h2 class="section-heading" id="gtex-data">GTEX data<a class="anchor" aria-label="anchor" href="#gtex-data"></a>
+</h2>
+<hr class="half-width">
+<p>Human tissue specific expression data from the <a href="https://gtexportal.org/home/" class="external-link">GTEX project</a> is available in the
+UCSC genome browser.</p>
+<ul>
+<li>Gene level expression data from GTEx V6 (570) donors, and GTEx V8
+(948) donors can be turned on from Blue bar title for more detailed
+configuration page. These are displayed as coloured bar plots.</li>
+<li>Transcript level data is also available for GTEx V6, this is also
+displayed as bar plots.</li>
+<li>Transcript level expression data for GTEx V6 is available as
+coverage plots and is accessed from the <strong>Track hubs</strong>.
+<ul>
+<li>Under the genome view window, click on the <code>track hubs</code>,
+or access from the <code>Toolbar</code> under <code>My data</code>
+</li>
+<li>Scroll down and select <code>GTEx RNA-seq Signal Hub</code>. This
+can be viewed in either hg19 or hg38 so can be compared with a wide
+variety of other datasets.</li>
+</ul>
+<img src="../fig/06geneexpression_trackhubs_GTEx.png" class="figure">
+</li>
+</ul>
+<p>Default settings:</p>
+<ul>
+<li><p>All the available data from one individual only is loaded. Data
+from other subjects in the study can be loaded as desired. For example,
+you could load all available samples for one tissue region
+only.</p></li>
+<li><p>The data is <em>autoscale to data view</em> with a track height
+or 12 pixels for each samples. You can change the height of the track or
+add a data transformation.</p></li>
+<li>
+<p>The default points plot can be converted into a density plot by
+clicking on the track title.</p>
+<figure><img src="../fig/06geneexpression_GTEx_V6_settings.png" class="figure mx-auto d-block"></figure>
+</li>
+</ul>
+<div class="section level3">
+<h3 id="your-task">Your task<a class="anchor" aria-label="anchor" href="#your-task"></a>
+</h3>
+<p>Using the selection matrix for female donors aged 2-49 years,
+deselect the default samples and select only Brain cortex and Pancreas
+samples.</p>
+<p>Navigate to the location for the gene MYRF. You can increase the
+height of the datatrack to improve visualisation.</p>
+<div id="challenge-1" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-1" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 1</h3>
+<div class="callout-content">
+<p>Can you locate an exon in the MYRF gene that is present in
+transcripts expressed in the brain but not in the pancreas?</p>
+</div>
+</div>
+</div>
+<div id="challenge-2" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-2" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 2</h3>
+<div class="callout-content">
+<p>Does this alternative splicing event result in a frame shift of the
+coding sequence?</p>
+</div>
+</div>
+</div>
+<div id="challenge-3" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-3" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 3</h3>
+<div class="callout-content">
+<p>How many amino acids are there in the protein products for each MYRF
+transcript?</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="facs-data">FACS data<a class="anchor" aria-label="anchor" href="#facs-data"></a>
+</h2>
+<hr class="half-width">
+<p>The FACS derived data from the <a href="https://tabula-muris.ds.czbiohub.org/" class="external-link">Tabular Muris</a> cell type
+data can be visualised as a coverage plot</p>
+<div class="section level3">
+<h3 id="your-task-1">Your task<a class="anchor" aria-label="anchor" href="#your-task-1"></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li>Start at the view of the NTRK2 gene in the human genome and navigate
+to the Ntrk2 gene in the mouse genome using the <strong>View in other
+genomes tool</strong>.</li>
+</ol>
+<p><code>Toolbar  &gt;  View  &gt;  In Other Genomes</code>
+(Convert)</p>
+<ol start="2" style="list-style-type: decimal">
+<li><p>Select <code>New Genome:Mouse</code>,
+<code>New Assembly:GRC38/mm10</code>, click on
+<code>Submit</code></p></li>
+<li><p>Select the region with the greatest homology</p></li>
+<li><p>Click on the bar chart icon for the Tabular muris data in the
+default view to see a summary bar chart of the cell type data.</p></li>
+<li>
+<p>To see a coverage plot of the expression data, we have to
+configure the Tabular Muris track by selecting it from the blue bar
+collection.</p>
+<ol style="list-style-type: lower-alpha">
+<li>Hide <code>Cell expression</code>
+</li>
+<li>Select <code>Genome coverage</code> to full</li>
+<li>Select <code>submit</code>
+</li>
+</ol>
+</li>
+</ol>
+<p><em>This can look a bit overwhelming as there are many tracks and the
+default track height is set very high. </em> <em>But it is easy to
+simplify it by focusing on a few cell types of interest.</em></p>
+<ol start="6" style="list-style-type: decimal">
+<li>Right click on the grey bar to <code>configure the track set</code>
+<ol style="list-style-type: lower-alpha">
+<li>Change <code>Track height</code> to 30</li>
+<li>for <code>Data view scaling</code> select
+<code>group auto-scale</code>
+</li>
+<li>clear all the subtracks and then manually select only these few cell
+types of interest:</li>
+</ol>
+<ul>
+<li>astrocyte Cv</li>
+<li>Bergmann glial Cv</li>
+<li>microglia Cv</li>
+<li>neuron Cv</li>
+<li>oligodendrocyte Cv</li>
+<li>OPC Cv</li>
+</ul>
+</li>
+</ol>
+<div id="challenge-4" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-4" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 4</h3>
+<div class="callout-content">
+<p>Which cell type has the highest level expression of Ntrk2 in this
+dataset?</p>
+</div>
+</div>
+</div>
+<ol start="7" style="list-style-type: decimal">
+<li><p>Change the <code>Data view scaling</code> from autoscale to
+dataview.</p></li>
+<li><p>Export a PDF image of the genome view:
+<code>Toolbar  &gt;  View  &gt;  PDF/PS</code> select
+<code>Download the current browser graphic in PDF</code></p></li>
+</ol>
+<figure><img src="../fig/06geneexpression_mm10_Ntrk2.png" class="figure mx-auto d-block"></figure><div id="challenge-5" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-5" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 5</h3>
+<div class="callout-content">
+<p>Which cell type(s) express the long and short transcripts of
+Ntrk2?</p>
+</div>
+</div>
+</div>
+</div>
+</section><section><h2 class="section-heading" id="linnarsson-lab-data">Linnarsson lab data<a class="anchor" aria-label="anchor" href="#linnarsson-lab-data"></a>
+</h2>
+<hr class="half-width">
+<p>Mouse CNS cell type expression data can also be validated using an
+independent single cell dataset of mouse cortex from the <a href="http://linnarssonlab.org/" class="external-link">Linnarsson lab</a>.</p>
+<p>The data that is publicly available for viewing in the UCCS genome
+browser is not housed in the UCSC genome browser. You must first access
+it from the the Linnarsson lab data page.</p>
+<p>This RNAseq data is stranded, meaning you can see if the transcript
+data is from the + or - strand.</p>
+<div class="section level3">
+<h3 id="your-task-2">Your task<a class="anchor" aria-label="anchor" href="#your-task-2"></a>
+</h3>
+<ol style="list-style-type: decimal">
+<li><p>Click <a href="http://linnarssonlab.org/cortex/" class="external-link">here</a> for the
+Linnarsson lab public data page for this dataset where you can search
+for cell expression profiles for individual genes.</p></li>
+<li><p>Click on the <code>Browse the genome</code> blue text near the
+bottom of the page.</p></li>
+</ol>
+<p>This loads 18 different tracks, one for each cell type investigated.
+The default setting for expression range is quite high and most gene
+expression is not observed with these settings. Each track must be
+configured individually rather than as a group, which takes a lot of
+time.</p>
+<p>We have created a version of this data as a public session in the
+UCSC genome browser, where each track is autoscaled which can make it
+quicker to determine which expression range would be ideal for
+visualising the expression of an individual gene. The data is also
+viewed using ‘Multi-Region’ which hides the introns in the gene models.
+The session is illustrated in the screen shot below and you can access
+this custom track set by clicking on the title in blue text. It is also
+a publicly shared session called <strong>mm10 Linnarsson Celltype
+autoscale</strong> which you can access from the database of public
+sessions.</p>
+<figure><img src="../fig/06geneexpression_linnarsson_ntrk2.png" alt="Linnarsson lab mouse cortex single cell data as autoscaled datatracks" class="figure mx-auto d-block"><div class="figcaption"><a href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=mm10&amp;lastVirtModeType=exonMostly&amp;lastVirtModeExtraState=&amp;emGeneTable=knownGene&amp;virtModeType=exonMostly&amp;virtMode=1&amp;nonVirtPosition=chr13%3A58807697%2D59133970&amp;position=chr13%3A58807697%2D59133970&amp;hgsid=1130613507_A81QmYr4dhsQBuI4PbXkGTxoEaZH" class="external-link">Linnarsson
+lab mouse cortex single cell data as autoscaled datatracks</a></div>
+</figure><div id="challenge-6" class="callout discussion">
+<div class="callout-square">
+<i class="callout-icon" data-feather="message-circle"></i>
+</div>
+<div id="challenge-6" class="callout-inner">
+<h3 class="callout-title">CHALLENGE 6</h3>
+<div class="callout-content">
+<p>Select 2 or three cell types and adjust the scale to best reflect
+differences in gene expression of Ntrk2 between these cells.</p>
+<p>Save this session and share it.</p>
+</div>
+</div>
+</div>
+<div id="keypoints1" class="callout keypoints">
+<div class="callout-square">
+<i class="callout-icon" data-feather="key"></i>
+</div>
+<div class="callout-inner">
+<h3 class="callout-title">Key Points</h3>
+<div class="callout-content">
+<ul>
+<li>The UCSC genome browser allows you to compare gene expression data
+from multiple sources and different species</li>
+</ul>
+</div>
+</div>
+</div>
+<!--
+Place links that you need to refer to multiple times across pages here. Delete
+any links that you are not going to use.
+ -->
 </div>
 </section></section>
 </div>
