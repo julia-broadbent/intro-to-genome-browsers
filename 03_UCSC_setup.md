@@ -154,6 +154,8 @@ Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO
 
 :::
 
+Next, we will explore some tools and public datasets available in the UCSC genome browser.
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - The UCSC genome browser can be easily configured according to your visual preferences and data needs
