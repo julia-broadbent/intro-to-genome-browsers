@@ -49,6 +49,7 @@ episodes:
 - 02_data_background.md
 - 03_UCSC_setup.md
 - 04_UCSC_GeneModels.md
+- 05_BLAT.md
 
 # Information for Learners
 learners:
