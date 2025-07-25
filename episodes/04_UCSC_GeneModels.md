@@ -1,13 +1,12 @@
 ---
 title: "USCS Genome Browser: Understanding gene models"
-teaching: 10
-exercises: 2
+teaching: 30
+exercises: 3
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
 - How do we interpret gene models represented in the UCSC genome browser?
-  - What tools and public datasets are available in the UCSC genome browser?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -19,8 +18,6 @@ Use the UCSC gene browser to:
 - Investigate specific genes as well as collections of genes
 - Search for locations of sequences and markers
 - Retrieve annotation information for specific regions or genome-wide
-  - View your own data in context of other annotations
-  - Compare a region of one genome to genomes of other species
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -134,10 +131,9 @@ this is the transcript you selected from the autocompleted list or the search re
 
 #### 6. Change the **view settings** for the track 
 
-Right click on the track grey bar 
-in the left of the genome window to access view settings. 
-Switch between `dense` ,  `squish` ,  `pack` ,  and  `full`  
-to see how it changes the representation of the models.
+Right click on the track grey bar in the left of the genome window to access view settings. 
+
+Switch between  `dense` ,  `squish` ,  `pack` ,  and  `full`  to see how it changes the representation of the models.
 
 #### 7. Reveal the Ensembl ID for each transcript
 
@@ -253,8 +249,49 @@ This transcript is encoded on the reverse strand.
 
 ## BDNF
 
+Now we will look at the gene model for BDNF in the same genome. 
+There are some differences that enable us to demonstrate some more tools.
+
+#### 1. Navigate to the BDNF gene position in GRCh38
+
+![](episodes/fig/04UCSCgenemodels_BDNF_genemodel_2021.png)
+
+- Note that there are blue transcript models encoded on the - strand and green 
+BDNS-AS transcript models on the + strand. BDNF-AS is the antisense gene.
+- Colouring information is specific for each track and can be obtained from the configuration page. 
+Below is the colouring legend for the GENCODE V36 track.
+
+![](episodes/fig/04UCSCgenemodels_Gencode_V36_colour.png)
+
+#### 2. Flip the orientation of the gene
+
+Since the convention is to display genes in the 5’ to 3’ orientation, 
+it can be useful for our own interpretation, and also for presentation purposes, 
+to flip the orientation of a gene when viewing it in a Genome Browser.
+
+To flip the orientation of the gene, use the `reverse` button under the genome view window.
+
+#### 3. Apply the Multi-Region view from the main tool bar view options
+
+When a gene has many large introns taking up a lot of white space in an image, 
+it can be difficult to see if exons in different transcript models or other data tracks align. 
+The **Multi-Region** view tool can be used to fold the intronic regions out of the view like a concertina. 
+The Broswer selects which region to fold out based on the gene model track(s) that you have turned on at the time.
+
+`Toolbar  >  View  >  Multi-Region  >  `   select   `Show exons using GENCODE V36`
+
+![It is now a lot easier to view a number of interesting features in the BDNF transcript models](episodes/fig/04UCSCgenemodels_BDNF_multiregion_2021.png)
+
+Notice:
+
+- The transcript variants for the BDNF vary mostly in the genomic position of the 5’UTR.
+- The noncoding AS-BDNF gene transcript includes a region that would be antisense to the coding BDNF transcript.
+
+You may find that using the multi-region tool facilitates visualisation and interpretation of gene expression data later in the workshop.
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-![The typical structure of a gene as represented in the UCSC genome browser](episodes/fig/04UCSCGeneModels_gene_model.png)
+- The UCSC genome browser graphically represents key elements of gene transcripts, including exons, introns, and untranslated regions
+- Different settings and tools can be used to configure the browser to more easily investigate specific features of a gene
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
