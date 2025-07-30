@@ -128,7 +128,7 @@ Are the probes likely to detect different transcripts?
 `Toolbar  >  View  >  Multi-Region  `  select  `  Show exons using GENCODE V36  `
 
 >
-> I have created a ‘public session’ of the BLAT NTRK2 exercise. You can view this from the link in the sessions.
+> We have created a ‘public session’ of the BLAT NTRK2 exercise. You can view this from the link in the sessions.
 >
 > ` Toolbar  >  My data   >  Public session  >  `  search for **hg38_NTRK2_blat_probes**
 >
