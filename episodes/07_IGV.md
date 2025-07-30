@@ -48,12 +48,12 @@ For each cell type, we will down load a .BAM file containing only the reads from
 
 For each SRA run in the table below:
 
-| Cell type     | SRA run                                                                              | Vignette Cell ID    |
-| ------        | --------------                                                                       | -------             |
-| astrocyte     | [SRR2138962](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?run=SRR2138962)       | D1319_V             |
-| astrocyte     | [SRR2139935](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?run=SRR2139935)       | A1643_VL            |
-| neuron        | [SRR2139989](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?run=SRR2139989)       | S467_V4             |
-| neuron        | [SRR2140047](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?run=SRR2140047)       | S1282_V             |
+| Cell type     | SRA run                                                                         | Vignette Cell ID    |
+| ------        | --------                                                                        | -------             |
+| astrocyte     | [SRR2138962](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?run=SRR2138962)  | D1319_V             |
+| astrocyte     | [SRR2139935](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?run=SRR2139935)  | A1643_VL            |
+| neuron        | [SRR2139989](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?run=SRR2139989)  | S467_V4             |
+| neuron        | [SRR2140047](https://trace.ncbi.nlm.nih.gov/Traces/sra/sra.cgi?run=SRR2140047)  | S1282_V             |
 
 
 a. Click on the SRA run to open the link.
@@ -95,7 +95,7 @@ in the **same folder** as its BAM file. If not, the IVG software will not be abl
 
 a. Select the Mouse (mm10) genome from the genome box in the top right hand corner.
 
-b. Select `  File  >  Load from File  `  and select all four *_chr13.sorted.bam* files only
+b. Select `  File  >  Load from File  `  and select all four *\_chr13.sorted.bam* files only
 
 c. Select  `  open  `  - but don’t expect to see any data yet. The genome view window opens 
 on a whole chromosome view as default but it wont show any data until the view region is 
