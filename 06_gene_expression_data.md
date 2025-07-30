@@ -1,5 +1,5 @@
 ---
-title: "Gene expression data"
+title: "UCSC Genome Browser: Gene expression data"
 teaching: 30
 exercises: 3
 ---
@@ -168,7 +168,7 @@ which you can access from the database of public sessions.
 
 ## CHALLENGE 6
 
-Select 2 or three cell types and adjust the scale to best reflect differences in gene expression of Ntrk2 between these cells. 
+Select two or three cell types and adjust the scale to best reflect differences in gene expression of Ntrk2 between these cells. 
 
 Save this session and share it.
 
