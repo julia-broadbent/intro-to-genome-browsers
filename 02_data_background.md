@@ -59,6 +59,8 @@ the *NTRK2* gene is a very useful example for exploring cell type specific trans
 
 <br>
 
+<br>
+
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - The *NTRK2* gene is a useful example for exploring cell-type specific transcript expression.

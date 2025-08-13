@@ -15,6 +15,11 @@ exercises: 2
 - Use the UCSC BLAT tool to compare the similarity of a short probe sequence to the 
 human genome and identify the genomic transcript each probe is most likely to detect.
 
+-   Understand the how some types of genomic and expression data are represented in genome browsers
+-   Determine the tissue/cell type expression profiles of a gene of interest in mouse and human expression data
+-   Know some basic files types used in genome browsers and upload and view local BAM files.
+-   Use the BLAT tool to locate genomic regions with similarity to a sequence of interest
+-   Create custom interactive views with multiple datatypes to share with colleagues and generate images for publications
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## The BLAT tool
