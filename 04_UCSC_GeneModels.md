@@ -1,7 +1,7 @@
 ---
 title: "UCSC Genome Browser: Understanding gene models"
-teaching: 30
-exercises: 3
+teaching: 34
+exercises: 11
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -12,14 +12,18 @@ exercises: 3
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-Use the UCSC gene browser to:
+- Understand how genomic data is represented in the UCSC genome browser
+- Identify differences between transcript variants
 
-- Explore features of particular chromosomal regions
-- Investigate specific genes as well as collections of genes
-- Search for locations of sequences and markers
-- Retrieve annotation information for specific regions or genome-wide
+-   Understand the how some types of genomic and expression data are represented in genome browsers
+-   Determine the tissue/cell type expression profiles of a gene of interest in mouse and human expression data
+-   Know some basic files types used in genome browsers and upload and view local BAM files.
+-   Use the BLAT tool to locate genomic regions with similarity to a sequence of interest
+-   Create custom interactive views with multiple datatypes to share with colleagues and generate images for publications
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
+Now we will explore some tools and public datasets available in the UCSC genome browser.
 
 ## Gene model representation
 
@@ -282,16 +286,26 @@ The Broswer selects which region to fold out based on the gene model track(s) th
 
 ![It is now a lot easier to view a number of interesting features in the BDNF transcript models](episodes/fig/04UCSCgenemodels_BDNF_multiregion_2021.png)
 
-Notice:
+::: callout
+
+## Did you notice?
 
 - The transcript variants for the BDNF vary mostly in the genomic position of the 5’UTR.
 - The noncoding AS-BDNF gene transcript includes a region that would be antisense to the coding BDNF transcript.
 
-You may find that using the multi-region tool facilitates visualisation and interpretation of gene expression data later in the workshop.
+:::
+You may find that using the multi-region tool facilitates visualisation and 
+interpretation of gene expression data later in the workshop.
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- The UCSC genome browser graphically represents key elements of gene transcripts, including exons, introns, and untranslated regions
-- Different settings and tools can be used to configure the browser to more easily investigate specific features of a gene
+- The UCSC genome browser graphically represents key elements of gene transcripts, 
+including exons, introns, and untranslated regions
+- Different settings and tools can be used to configure the browser to more easily investigate specific features of a gene.
+You should now be confident using the UCSC genome browser to:
+  - Explore features of particular chromosomal regions
+  - Investigate specific genes as well as collections of genes
+  - Search for locations of sequences and markers
+  - Retrieve annotation information for specific regions or genome-wide
 
 ::::::::::::::::::::::::::::::::::::::::::::::::

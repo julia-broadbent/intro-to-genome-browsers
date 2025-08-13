@@ -1,7 +1,7 @@
 ---
 title: "UCSC Genome Browser: Gene expression data"
-teaching: 30
-exercises: 3
+teaching: 24
+exercises: 6
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -177,6 +177,9 @@ Save this session and share it.
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - The UCSC genome browser allows you to compare gene expression data from multiple sources and different species
+- You should now be confident using the UCSC genome browser to:
+  - View your own data in context of other annotations
+  - Compare a region of one genome to genomes of other species
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

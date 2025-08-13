@@ -1,7 +1,7 @@
 ---
 title: "IGV"
-teaching: 10
-exercises: 1
+teaching: 60
+exercises: 0
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 

@@ -1,7 +1,7 @@
 ---
 title: "UCSC Genome Browser: BLAT tool"
-teaching: 20
-exercises: 1
+teaching: 28
+exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -137,8 +137,7 @@ Are the probes likely to detect different transcripts?
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - We can use the UCSC [BLAT tool](https://genome.ucsc.edu/FAQ/FAQblat.html) to 
-identify region(s) of sequence similarity between a genome 
-and a sequence of interest.
+identify region(s) of similarity between a sequence of interest and other parts of the genome.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

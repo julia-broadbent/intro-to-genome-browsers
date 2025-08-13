@@ -1,7 +1,7 @@
 ---
 title: "UCSC Genome Browser: Setup"
-teaching: 20
-exercises: 6
+teaching: 30
+exercises: 0
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
@@ -18,29 +18,31 @@ exercises: 6
 
 ## Navigating the UCSC browser
 
-Many of the tools that we will explore can be selected via multiple different routes within the browser interface. 
+Many of the tools that we will explore in this section can be selected via multiple different routes within the browser interface:
 
 - Many tools can be accessed via the top toolbar on a pull down list
-- Other tools can be accessed from within the browser window. 
+- Other tools can be accessed from within the browser window
 
-In the following instructions, text written `like this` is used to indicate successive 
-lower levels from the pull down menu when starting with the top toolbar. 
-For example, the notation below indicates that you should select *Genome Browser* 
-from the top tool bar and then click on *Reset all user settings*.
+In the following instructions, we will mostly navigate through successive 
+lower levels from the pull down menu from the top toolbar. An
+example of the notation used in this workshop: the below indicates that you should select <ins>Genome Browser</ins> 
+from the top tool bar and then click on <ins>Reset all user settings</ins>.
 
-`Toolbar   >   Genome Browser  >   Reset all user settings`
+`Toolbar   &nbsp;&nbsp; >   &nbsp;&nbsp; Genome Browser  &nbsp;&nbsp; >   &nbsp;&nbsp; Reset all user settings`
 
 ::: spoiler
 ## FURTHER HELP AND TRAINING
 
-The UCSC genome browser is supported by a rich training resource which has 
+The UCSC Genome Browser is supported by a rich training resource which has 
 new material added regularly to the [YouTube channel](https://www.youtube.com/channel/UCQnUJepyNOw0p8s2otX4RYQ/videos).
 
 To access training and develop your skills further, go to: 
 
-`Toolbar  >  Help  >  Training`
+`Toolbar  &nbsp;&nbsp; >  &nbsp;&nbsp; Help  &nbsp;&nbsp; >  &nbsp;&nbsp; Training`
 
 :::
+
+<br>
 
 ::: caution
 ## WARNING
@@ -50,9 +52,9 @@ Weekly maintenance of the UCSC browser occurs at 2-3pm Sundays Pacific time
 down for a few minutes. 
 
 To ensure uninterrupted browser services for your research during UCSC server 
-maintenance and power outages, bookmark one of the mirror sites that replicates the UCSC genome browser.
+maintenance and power outages, bookmark one of the mirror sites that replicates the UCSC Genome Browser.
 
-More information and contacts for the UCSC genome browser can be found [here](http://seabass.mpipz.mpg.de/contacts.html).
+More information and contacts for the UCSC Genome Browser can be found [here](http://seabass.mpipz.mpg.de/contacts.html).
 :::
 
 
@@ -62,10 +64,11 @@ More information and contacts for the UCSC genome browser can be found [here](ht
 
 #### 1. Open the Browser interface
 
-Navigate to the [UCSC genome Browser](https://genome.ucsc.edu/) and sign in if you have an account.
+Navigate to the [UCSC Genome Browser](https://genome.ucsc.edu/) and [sign in](https://genome.ucsc.edu/cgi-bin/hgLogin?hgLogin.do.signupPage=1&returnto=https%3A%2F%2Fgenome.ucsc.edu%2Fcgi%2Dbin%2FhgSession%3Fhgsid%3D2907973544_r0PWRkU4aje0R8U2JQ1u6wewugzj) if you have an account.
 
 ![](episodes/fig/03UCSC_UCSCHome.png)
 
+<br>
 
 #### 2. Reset the browser
 
@@ -73,6 +76,7 @@ To ensure we all see the same screen, select:
 
 `Toolbar  >  Genome Browser  >  Reset all user settings`
 
+<br>
 
 #### 3. Select and open the human Genome Hg38 at the default position
 
@@ -92,6 +96,7 @@ Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO
 
 ![You should see a view of the browser similar to the image below, opening at a position on the X chromosome of Human genome version GRCh38 showing the gene model for the ACE2 gene. Some of the default tracks may have been updated since this screenshot was made.](episodes/fig/03UCSC_UCSC_Hg38_opening_2021.png)
 
+<br>
 
 #### 4. Familiarise yourself with the main areas of the interface
 
@@ -119,6 +124,8 @@ Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO
 
 :::
 
+<br>
+
 #### 5. Customise your view
 
 Use the ‘Configure’ tool to change the font size to 12
@@ -137,6 +144,8 @@ Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO
 
 :::
 
+<br>
+
 #### 6. Practice navigating around the genome view
 
 ::: checklist
@@ -153,8 +162,6 @@ Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO
 ![](episodes/fig/03UCSC_drag-and-select.png)
 
 :::
-
-Next, we will explore some tools and public datasets available in the UCSC genome browser.
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
