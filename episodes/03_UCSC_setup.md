@@ -6,13 +6,13 @@ exercises: 0
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do we navigate the web interface of the UCSC genome browser?
+- How do we navigate the web interface of the UCSC Genome Browser?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Become familiar with the basic features of the UCSC genome browser
+- Become familiar with basic navigation and configuration of the UCSC Genome Browser
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -28,7 +28,7 @@ lower levels from the pull down menu from the top toolbar. An
 example of the notation used in this workshop: the below indicates that you should select <ins>Genome Browser</ins> 
 from the top tool bar and then click on <ins>Reset all user settings</ins>.
 
-`Toolbar   &nbsp;&nbsp; >   &nbsp;&nbsp; Genome Browser  &nbsp;&nbsp; >   &nbsp;&nbsp; Reset all user settings`
+`Toolbar     >     Genome Browser    >     Reset all user settings`
 
 ::: spoiler
 ## FURTHER HELP AND TRAINING
@@ -38,7 +38,7 @@ new material added regularly to the [YouTube channel](https://www.youtube.com/ch
 
 To access training and develop your skills further, go to: 
 
-`Toolbar  &nbsp;&nbsp; >  &nbsp;&nbsp; Help  &nbsp;&nbsp; >  &nbsp;&nbsp; Training`
+`Toolbar    >    Help    >    Training`
 
 :::
 
@@ -74,7 +74,7 @@ Navigate to the [UCSC Genome Browser](https://genome.ucsc.edu/) and [sign in](ht
 
 To ensure we all see the same screen, select:
 
-`Toolbar  >  Genome Browser  >  Reset all user settings`
+`Toolbar    >    Genome Browser    >    Reset all user settings`
 
 <br>
 
@@ -84,7 +84,7 @@ To ensure we all see the same screen, select:
 
 ### Go directly to the genome
 
-`Toolbar  >  Genomes  >  HumanGRCh38`
+`Toolbar  >  Genomes  >  HumanGRCh38/hg38`
 
 ### ...or go to the Genome gateway page
 
@@ -92,9 +92,17 @@ To ensure we all see the same screen, select:
 
 Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO` box
 
+![](episodes/fig/03UCSC_genomegateway.png)
+
 :::
 
-![You should see a view of the browser similar to the image below, opening at a position on the X chromosome of Human genome version GRCh38 showing the gene model for the ACE2 gene. Some of the default tracks may have been updated since this screenshot was made.](episodes/fig/03UCSC_UCSC_Hg38_opening_2021.png)
+<br>
+
+You should see a view of the browser similar to the image below, 
+opening at a position on chromosome 7 of Human genome version GRCh38 showing the gene model for the SHH gene. 
+Some of the default tracks may have been updated since this screenshot was made.
+
+![](episodes/fig/03UCSC_UCSC_Hg38_opening_2025.png)
 
 <br>
 
@@ -104,7 +112,7 @@ Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO
 
 ## Can you locate:
 
-- The main Toolbar
+- The main toolbar
 - Blue bar track collections (data of similar types are collected together under the same ‘Blue bar’ heading). Scroll down to see additional data collections and which ones are turned on as default.
 - Genome species and version number
 - Position box
@@ -120,7 +128,7 @@ Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO
 - View the **configuration page** for one of the tracks. The configuration page gives you a lot of information about the data track and its colouring. You can open the configuration page for a track by:
   - clicking on the grey bar for the track or,
   - clicking on the track title in the Blue bar collection. More information and options are usually available by selecting the configuration page for a track via the track title in the Blue Bar collections.
-- Select ‘resize’ button under the genome view to fit the genome view window to your screen
+- Select the `resize` button under the genome view to fit the genome view window to your screen
 
 :::
 
@@ -140,7 +148,7 @@ Use the ‘Configure’ tool to change the font size to 12
 
 Click the `configure` button below the genome view window
 
-Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO` box
+Select  `    text size 12  > submit`
 
 :::
 
@@ -154,14 +162,18 @@ Ensure that GRCh38 is selected in ‘human assembly’ and click on the blue `GO
 
 - Moving left and right, using both the navigation buttons and your mouse
 - Zooming in and out, using navigation buttons
-- Zooming in to a region of interest, using `Drag-and-select`:
-  - Using your mouse select a region of interest by clicking the ruler (position track) at the very top of the genome view window.
-  - This is also how to access the *highlight tool* which you will use in a later exercise to highlight a region of interest.
+- Zooming in to a region of interest, using `drag-and-select`:
+  - Using your mouse, select a region of interest by clicking the ruler (position track) 
+  at the very top of the genome view window. Hold down the left click and drag to select a larger region.
+  - This is also how to access the **highlight tool** which you will use in a later exercise to highlight a region of interest.
     - Click on the down arrow next to the highlight colour to select a different colour.
+    - Don't forget to click `Add Highlight` to save your highlighted region on the genome
 
 ![](episodes/fig/03UCSC_drag-and-select.png)
 
 :::
+
+<br>
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 

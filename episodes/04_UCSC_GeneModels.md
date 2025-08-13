@@ -15,13 +15,9 @@ exercises: 11
 - Understand how genomic data is represented in the UCSC genome browser
 - Identify differences between transcript variants
 
--   Understand the how some types of genomic and expression data are represented in genome browsers
--   Determine the tissue/cell type expression profiles of a gene of interest in mouse and human expression data
--   Know some basic files types used in genome browsers and upload and view local BAM files.
--   Use the BLAT tool to locate genomic regions with similarity to a sequence of interest
--   Create custom interactive views with multiple datatypes to share with colleagues and generate images for publications
-
 ::::::::::::::::::::::::::::::::::::::::::::::::
+
+<br>
 
 Now we will explore some tools and public datasets available in the UCSC genome browser.
 
@@ -31,7 +27,9 @@ Now we will explore some tools and public datasets available in the UCSC genome 
 
 ## NTRK2
 
-First we are going to familiarise ourselves with the gene model representation of the different transcripts of NTRK2.
+First we are going to familiarise ourselves with the gene model representation of the different transcripts of *NTRK2*.
+
+<br>
 
 #### 1. Navigate to the NTRK2 gene position in GRCh38 and view the gene models. 
 
@@ -43,6 +41,8 @@ You can navigate to a different region of the genome by typing in the position b
 
 If you know the specific location you are interested in, type in the location (e.g. **chr9:84,665,760-85,030,334**)
 
+![](episodes/fig/04UCSCGeneModels_NTRK2Step1.png)
+
 ### Gene name
 
 If you have a gene of interest, you can type in the gene name (e.g. **NTRK2**). 
@@ -52,26 +52,38 @@ You can select from one of the suggestions or click `go` and select from a wider
 
 :::
 
+<br>
+
 #### 2. Hide all tracks 
 
 Select the `Hide all` button below the genome view.
 
-#### 3. Turn on only the **Gencode V36** Genemodels in ‘full’ viewing mode
+<br>
 
-Select from the blue bar group labelled **Genes and Gene predictions*’.
+#### 3. Turn on the Gencode track
 
-#### 4. Turn on the **Conservation** track to ‘full’
+From the blue bar group labelled `Genes and Gene predictions`, set `GENCODE V48` to `full` 
+and select `Refresh` to turn on the gene modelling track. 
+*Note: the version number 48 may have changed since this workshop was written.*
 
-Don’t forget to click `refresh`
+![](episodes/fig/04UCSCGeneModels_NTRK2Step3.png)
+
+<br>
+
+#### 4. Turn on the Conservation track
+
+From the blue bar group labelled `Comparative Genomics`, set `UCSC 100 Vertebrates` to `full` 
+and select `Refresh` to turn on the conservation track. 
+
+<br>
 
 #### 5. Zoom out and scroll across the whole gene
 
-When you have navigated to the NTRK2 gene, zoom out until you can view all of the 
+Zoom out until you can view all of the 
 5’ UTRs and 3’ UTRs for all transcript variants for this gene. Then drag the view 
-left and right to center (like in Google maps) or *drag and select* the region to center 
-the gene in the Genome view.
+left and right to centre the transcripts or use `drag-and-select` to `Zoom In`.
 
-![You should now see something like this](episodes/fig/04UCSCGeneModels_NTRK2_GENCODE_V36.png)
+![You should now see something like this](episodes/fig/04UCSCGeneModels_NTRK2_GENCODEV48.png)
 
 :::::::::: challenge
 
@@ -79,9 +91,13 @@ the gene in the Genome view.
 
 Which strand is the gene encoded on / transcribed from? (+ or - strand)
 
-::::::::::
+::: solution
 
-::::::::: challenge
+## solution
+
+The positive (+) strand. We know this because we can see the right-facing arrow ticks in the intronic regions of the gene model.
+
+:::
 
 ## CHALLENGE 2
 
@@ -89,9 +105,18 @@ Identify the exons, introns and UTRs.
 
 Do regions of conservation only occur were there are coding regions?
 
-::::::::::
+::: solution
 
-:::::::::::: challenge
+## solution
+
+Compare the NTRK2 transcript tracks to the gene model representation at the top of this lesson
+and discuss with your neighbour to identify exons, introns and UTRs.
+
+Peaks in the conservation track indicate regions of high conservation across species. 
+Use `drag-and-select` to zoom in to some non-exonic regions of high conservation 
+(you may need to drag and select multiple times to zoom in far enough)
+
+:::
 
 ## CHALLENGE 3
 
@@ -99,39 +124,60 @@ How many different transcripts variants are there for this gene?
 
 How do they differ?
 
-::::::::::::
+::: solution
 
-Select a coding region (full height boxes) towards the 3’UTR of the gene.
+## solution
 
+Count the number of items in the GENCODE track. Hover over each transcript to view its ID. 
+You may also wish to turn on the `NCBI RefSeq` track to view the NCBI RefSeq transcript IDs.
 
-:::::::::::: challenge
+Notice how the number and position of exons, introns, and gene length differ between transcripts.
+
+:::
 
 ## CHALLENGE 4
 
+Select a coding region/exon towards the 3’UTR of the gene. 
 Zoom in to the region until you can see the letters of the amino acid sequence.
+Then do the same for a coding region/exon towards the end of the 5’UTR of the gene. 
 
 Why are some amino acid boxes red or green?
 
-:::::::::::::
+::: solution
 
-:::::::::::: challenge
+## solution
+
+Green boxes indicate potential start codons, red boxes indicate translation termination codons.
+
+:::
 
 ## CHALLENGE 5
 
-Zoom in again until you can see each amino acid number.
+Zoom in further until you can see each amino acid number.
 
 Why do different transcripts have different amino acid numbers?
 
-::::::::::::
+::: solution
+
+## solution
+
+Different transcripts may have different exons, or exons of different lengths, 
+so as you move further towards the end of the gene, the amino acid numbers between different 
+transcripts may no longer match.
+
+:::
+:::::::::::::::::::::::::::::::::
 
 ::: callout
 
 ## NOTE
 
-Note that one of the transcript names is in white text with a black background: 
+Note that one of the transcript names is highlighted in a different colour: 
 this is the transcript you selected from the autocompleted list or the search results.
 
 :::
+
+<br>
 
 #### 6. Change the **view settings** for the track 
 
@@ -139,16 +185,25 @@ Right click on the track grey bar in the left of the genome window to access vie
 
 Switch between  `dense` ,  `squish` ,  `pack` ,  and  `full`  to see how it changes the representation of the models.
 
+<br>
+
 #### 7. Reveal the Ensembl ID for each transcript
 
-Go to the configuration page for the **GENCODE V36** track and change check the 
-box to also reveal the **Ensembl ID** in the label.
+a. Right click on the GENCODE track grey bar and select `Configure GENCODE v48` to go to the configuration page.
+
+b. Check the box to also reveal the **Ensembl ID** in the label.
+
+c. Select `Apply` to save your changes.
 
 The transcript names are now too long to fit on the screen. You can use the 
-configuration page (like you did to chane the font size at the beginning of the workshop) 
-and change the number of characters in the label so that you can see the entire transcript label.
+configuration page (like you did to change the font size earlier) 
+to change the number of characters in the `Label area width` so that you can see the entire transcript label.
 
-### Check your understanding
+![](episodes/fig/04UCSCGeneModels_NTRK2Step7.png)
+
+<br>
+
+## Check your understanding
 
 ::::::::::::::::::::: challenge 
 
@@ -256,16 +311,20 @@ This transcript is encoded on the reverse strand.
 Now we will look at the gene model for BDNF in the same genome. 
 There are some differences that enable us to demonstrate some more tools.
 
+<br>
+
 #### 1. Navigate to the BDNF gene position in GRCh38
 
 ![](episodes/fig/04UCSCgenemodels_BDNF_genemodel_2021.png)
 
 - Note that there are blue transcript models encoded on the - strand and green 
-BDNS-AS transcript models on the + strand. BDNF-AS is the antisense gene.
+*BDNS-AS* transcript models on the + strand. *BDNF-AS* is the antisense gene.
 - Colouring information is specific for each track and can be obtained from the configuration page. 
 Below is the colouring legend for the GENCODE V36 track.
 
 ![](episodes/fig/04UCSCgenemodels_Gencode_V36_colour.png)
+
+<br>
 
 #### 2. Flip the orientation of the gene
 
@@ -275,6 +334,8 @@ to flip the orientation of a gene when viewing it in a Genome Browser.
 
 To flip the orientation of the gene, use the `reverse` button under the genome view window.
 
+<br>
+
 #### 3. Apply the Multi-Region view from the main tool bar view options
 
 When a gene has many large introns taking up a lot of white space in an image, 
@@ -282,7 +343,7 @@ it can be difficult to see if exons in different transcript models or other data
 The **Multi-Region** view tool can be used to fold the intronic regions out of the view like a concertina. 
 The Broswer selects which region to fold out based on the gene model track(s) that you have turned on at the time.
 
-`Toolbar  >  View  >  Multi-Region  >  `   select   `Show exons using GENCODE V36`
+`Toolbar  >  View  >  Multi-Region  >   Show exons using GENCODE V48  >  Submit`
 
 ![It is now a lot easier to view a number of interesting features in the BDNF transcript models](episodes/fig/04UCSCgenemodels_BDNF_multiregion_2021.png)
 
@@ -290,22 +351,20 @@ The Broswer selects which region to fold out based on the gene model track(s) th
 
 ## Did you notice?
 
-- The transcript variants for the BDNF vary mostly in the genomic position of the 5’UTR.
-- The noncoding AS-BDNF gene transcript includes a region that would be antisense to the coding BDNF transcript.
+- The transcript variants for the *BDNF* gene vary mostly in the genomic position of the 5’UTR.
+- The noncoding *BDNF-AS* gene transcript includes a region that would be antisense to the coding BDNF transcript.
 
 :::
+
 You may find that using the multi-region tool facilitates visualisation and 
 interpretation of gene expression data later in the workshop.
+
+<br>
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
 - The UCSC genome browser graphically represents key elements of gene transcripts, 
 including exons, introns, and untranslated regions
 - Different settings and tools can be used to configure the browser to more easily investigate specific features of a gene.
-You should now be confident using the UCSC genome browser to:
-  - Explore features of particular chromosomal regions
-  - Investigate specific genes as well as collections of genes
-  - Search for locations of sequences and markers
-  - Retrieve annotation information for specific regions or genome-wide
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
