@@ -10,13 +10,15 @@
 carpentry: 'uom'
 
 # Alt-text description of the lesson.
-carpentry_description: 'This tutorial will introduce you to the genome browser format and illustrate how some freely available genome browsers can be used to interrogate a variety of data types, such as gene expression, genomic variation, methylation and many more.'
+carpentry_description: 'This tutorial will introduce you to the genome browser
+format and illustrate how some freely available genome browsers can be used to
+interrogate a variety of data types, such as gene expression, genomic variation, methylation and many more.'
 
 # Overall title for pages.
 title: 'Introduction to Genome Browsers' # FIXME
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 2025-07-02 # FIXME
+created: 2025-08-13 # FIXME
 
 # Comma-separated list of keywords for the lesson
 keywords: 'genomics, transcriptomics, IGV, UCSC' # FIXME
@@ -57,6 +59,7 @@ episodes:
 learners:
 - setup.md
 - reference.md
+- glossary.md
 
 # Information for Instructors
 instructors:
