@@ -1,6 +1,6 @@
 ---
 title: "UCSC Genome Browser: Understanding gene models"
-teaching: 34
+teaching: 29
 exercises: 11
 ---
 
