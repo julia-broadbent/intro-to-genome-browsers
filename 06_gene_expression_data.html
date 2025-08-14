@@ -118,11 +118,11 @@
   Introduction to Genome Browsers
 </div>
 
-<aside class="col-md-12 lesson-progress"><div style="width: 61%" class="percentage">
-    61%
+<aside class="col-md-12 lesson-progress"><div style="width: 57%" class="percentage">
+    57%
   </div>
   <div class="progress uom">
-    <div class="progress-bar uom" role="progressbar" style="width: 61%" aria-valuenow="61" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar uom" role="progressbar" style="width: 57%" aria-valuenow="57" aria-label="Lesson Progress" aria-valuemin="0" aria-valuemax="100">
     </div>
   </div>
 </aside><div class="container">
@@ -261,7 +261,7 @@
 
     <div id="flush-collapsecurrent" class="accordion-collapse collapse show" aria-labelledby="flush-headingcurrent" data-bs-parent="#accordionFlushcurrent">
       <div class="accordion-body">
-        <ul><li><a href="#gtex-data">GTEX data</a></li>
+        <ul><li><a href="#viewing-gtex-data-in-the-ucsc-genome-browser">Viewing GTEx data in the UCSC Genome Browser</a></li>
 <li><a href="#facs-data">FACS data</a></li>
 <li><a href="#linnarsson-lab-data">Linnarsson lab data</a></li>
         </ul></div><!--/div.accordion-body-->
@@ -337,7 +337,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>UCSC Genome Browser: Gene expression data</h1>
-        <p>Last updated on 2025-08-13 |
+        <p>Last updated on 2025-08-14 |
 
         <a href="https://github.com/julia-broadbent/intro-to-genome-browsers/edit/main/episodes/06_gene_expression_data.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -366,50 +366,52 @@ browser?</li>
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <p>Use the UCSC gene browser to:</p>
-<ul><li>Interpret gene expression data from multiple sources</li>
-<li>Compare a region of one genome to genomes of other species</li>
+<ul><li>Compare a region of one genome to genomes of other species</li>
+<li>Determine the tissue/cell type expression profiles of a gene of
+interest in mouse and human expression data</li>
 </ul></div>
 </div>
 </div>
 </div>
 </div>
-<figure><img src="fig/06geneexpression_coverage_plot.png" class="figure mx-auto d-block"></figure><section><h2 class="section-heading" id="gtex-data">GTEX data<a class="anchor" aria-label="anchor" href="#gtex-data"></a></h2>
+<figure><img src="fig/06geneexpression_coverage_plot.png" class="figure mx-auto d-block"></figure><section><h2 class="section-heading" id="viewing-gtex-data-in-the-ucsc-genome-browser">Viewing GTEx data in the UCSC Genome Browser<a class="anchor" aria-label="anchor" href="#viewing-gtex-data-in-the-ucsc-genome-browser"></a></h2>
 <hr class="half-width"><p>Human tissue specific expression data from the <a href="https://gtexportal.org/home/" class="external-link">GTEX project</a> is available in the
 UCSC genome browser.</p>
-<ul><li>Gene level expression data from GTEx V6 (570) donors, and GTEx V8
-(948) donors can be turned on from Blue bar title for more detailed
-configuration page. These are displayed as coloured bar plots.</li>
-<li>Transcript level data is also available for GTEx V6, this is also
-displayed as bar plots.</li>
-<li>Transcript level expression data for GTEx V6 is available as
-coverage plots and is accessed from the <strong>Track hubs</strong>.
-<ul><li>Under the genome view window, click on the <code>track hubs</code>,
-or access from the <code>Toolbar</code> under <code>My data</code>
-</li>
-<li>Scroll down and select <code>GTEx RNA-seq Signal Hub</code>. This
-can be viewed in either hg19 or hg38 so can be compared with a wide
-variety of other datasets.</li>
-</ul><img src="fig/06geneexpression_trackhubs_GTEx.png" class="figure"></li>
-</ul><p>Default settings:</p>
-<ul><li><p>All the available data from one individual only is loaded. Data
-from other subjects in the study can be loaded as desired. For example,
-you could load all available samples for one tissue region
-only.</p></li>
-<li><p>The data is <em>autoscale to data view</em> with a track height
-or 12 pixels for each samples. You can change the height of the track or
-add a data transformation.</p></li>
+<ol style="list-style-type: decimal"><li><p>Gene level expression data from <code>GTEx Gene V8</code> donors
+can be turned on from the blue bar under <code>Expression</code>. These
+are displayed as coloured bar plots.</p></li>
+<li><p>Transcript level expression data is available by turning on
+<code>GTEx Transcript</code> under the same blue bar. This is also
+displayed as bar plots.</p></li>
 <li>
-<p>The default points plot can be converted into a density plot by
-clicking on the track title.</p>
-<figure><img src="fig/06geneexpression_GTEx_V6_settings.png" class="figure mx-auto d-block"></figure></li>
-</ul><div class="section level3">
+<p>Transcript level expression data for GTEx V6 is also available as
+coverage plots.</p>
+<ol style="list-style-type: lower-alpha"><li><code>Toolbar  &gt;  My data  &gt;  Track Hubs</code></li>
+<li>Scroll down to <code>GTEx RNA-seq Signal Hub</code>. Select
+<code>hg38</code>
+</li>
+</ol></li>
+</ol><figure><img src="fig/06geneexpression_trackhubs_GTEx.png" class="figure mx-auto d-block"></figure><div class="section level4">
+<h4 id="default-settings">Default settings<a class="anchor" aria-label="anchor" href="#default-settings"></a></h4>
+<p>By default, all the available data from one individual only is
+loaded. Data from other subjects in the study can be loaded as desired.
+For example, you could load all available samples for one tissue region
+only.</p>
+<p>The data is <em>autoscale to data view</em> with a track height or 12
+pixels for each samples. You can change the height of the track or add a
+data transformation.</p>
+<p>As usual, you can right click on the grey bar on the left hand side
+to configure the track set.</p>
+<figure><img src="fig/06geneexpression_GTEx_V6_settings.png" class="figure mx-auto d-block"></figure><p><br></p>
+</div>
+<div class="section level3">
 <h3 id="your-task">Your task<a class="anchor" aria-label="anchor" href="#your-task"></a></h3>
-<p>Using the selection matrix for female donors aged 2-49 years,
+<ol style="list-style-type: decimal"><li><p>Using the selection matrix for female donors aged 20-49 years,
 deselect the default samples and select only Brain cortex and Pancreas
-samples.</p>
-<p>Navigate to the location for the gene MYRF. You can increase the
-height of the datatrack to improve visualisation.</p>
-<div id="challenge-1" class="callout discussion">
+samples.</p></li>
+<li><p>Navigate to the location for the gene <em>MYRF</em>. You can
+increase the height of the datatrack to improve visualisation.</p></li>
+</ol><div id="challenge-1" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
 </div>
@@ -450,48 +452,52 @@ transcript?</p>
 </div>
 </div>
 </section><section><h2 class="section-heading" id="facs-data">FACS data<a class="anchor" aria-label="anchor" href="#facs-data"></a></h2>
-<hr class="half-width"><p>The FACS derived data from the <a href="https://tabula-muris.ds.czbiohub.org/" class="external-link">Tabular Muris</a> cell type
-data can be visualised as a coverage plot</p>
+<hr class="half-width"><p>The FACS derived data from the <a href="https://tabula-muris.ds.czbiohub.org/" class="external-link">Tabula Muris</a> cell type
+data can be visualised as a coverage plot.</p>
+<p><br></p>
 <div class="section level3">
 <h3 id="your-task-1">Your task<a class="anchor" aria-label="anchor" href="#your-task-1"></a></h3>
-<ol style="list-style-type: decimal"><li>Start at the view of the NTRK2 gene in the human genome and navigate
-to the Ntrk2 gene in the mouse genome using the <strong>View in other
-genomes tool</strong>.</li>
-</ol><p><code>Toolbar  &gt;  View  &gt;  In Other Genomes</code>
-(Convert)</p>
-<ol start="2" style="list-style-type: decimal"><li><p>Select <code>New Genome:Mouse</code>,
-<code>New Assembly:GRC38/mm10</code>, click on
+<ol style="list-style-type: decimal"><li><p>Navigate back to the <em>NTRK2</em> gene in the human genome.
+Navigate to the Ntrk2 gene in the mouse genome via
+<code>Toolbar  &gt;  View  &gt;  In Other Genomes (Convert)</code></p></li>
+<li><p>Under <code>New Genome</code> select <code>Mouse</code>, under
+<code>New Assembly</code> select <code>GRC38/mm10</code>, then click
 <code>Submit</code></p></li>
 <li><p>Select the region with the greatest homology</p></li>
-<li><p>Click on the bar chart icon for the Tabular muris data in the
+<li><p>Click on the bar chart icon for the Tabula muris data in the
 default view to see a summary bar chart of the cell type data.</p></li>
-<li>
-<p>To see a coverage plot of the expression data, we have to
-configure the Tabular Muris track by selecting it from the blue bar
-collection.</p>
-<ol style="list-style-type: lower-alpha"><li>Hide <code>Cell expression</code>
+</ol><figure><img src="fig/06geneexpression_TabMurisbarchart.png" class="figure mx-auto d-block"></figure><ol start="5" style="list-style-type: decimal"><li>To see a coverage plot of the expression data, we have to configure
+the Tabula Muris track.
+<ol style="list-style-type: lower-alpha"><li>Right click on the grey bar to
+<code>Configure Tabula Muris track set</code>
+</li>
+<li>Hide <code>Cell expression</code>
 </li>
 <li>Select <code>Genome coverage</code> to full</li>
 <li>Select <code>submit</code>
 </li>
 </ol></li>
-</ol><p><em>This can look a bit overwhelming as there are many tracks and the
-default track height is set very high. </em> <em>But it is easy to
-simplify it by focusing on a few cell types of interest.</em></p>
-<ol start="6" style="list-style-type: decimal"><li>Right click on the grey bar to <code>configure the track set</code>
-<ol style="list-style-type: lower-alpha"><li>Change <code>Track height</code> to 30</li>
+</ol><p>This can look a bit overwhelming as there are many tracks and the
+default track height is set very high, but it is easy to simplify it by
+focusing on a few cell types of interest.</p>
+<ol start="6" style="list-style-type: decimal"><li>Right click on the grey bar to
+<code>configure Genome Coverage track set</code>
+<ol style="list-style-type: lower-alpha"><li>Change <code>Track height</code> to 30 pixels</li>
 <li>for <code>Data view scaling</code> select
 <code>group auto-scale</code>
 </li>
-<li>clear all the subtracks and then manually select only these few cell
-types of interest:</li>
-</ol><ul><li>astrocyte Cv</li>
+<li>
+<code>Hide All</code> subtracks and then manually select only these
+few cell types of interest:
+<ul><li>astrocyte Cv</li>
 <li>Bergmann glial Cv</li>
 <li>microglia Cv</li>
 <li>neuron Cv</li>
 <li>oligodendrocyte Cv</li>
 <li>OPC Cv</li>
 </ul></li>
+<li><code>Submit</code></li>
+</ol></li>
 </ol><div id="challenge-4" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -505,10 +511,11 @@ dataset?</p>
 </div>
 </div>
 </div>
-<ol start="7" style="list-style-type: decimal"><li><p>Change the <code>Data view scaling</code> from autoscale to
-dataview.</p></li>
+<ol start="7" style="list-style-type: decimal"><li><p>Go back to the configuration page to change
+<code>Data view scaling</code> to <code>auto-scale to data view</code>
+and <code>Submit</code></p></li>
 <li><p>Export a PDF image of the genome view:
-<code>Toolbar  &gt;  View  &gt;  PDF/PS</code> select
+<code>Toolbar  &gt;  View  &gt;  PDF</code> select
 <code>Download the current browser graphic in PDF</code></p></li>
 </ol><figure><img src="fig/06geneexpression_mm10_Ntrk2.png" class="figure mx-auto d-block"></figure><div id="challenge-5" class="callout discussion">
 <div class="callout-square">
@@ -537,25 +544,27 @@ data is from the + or - strand.</p>
 <ol style="list-style-type: decimal"><li><p>Click <a href="http://linnarssonlab.org/cortex/" class="external-link">here</a> for the
 Linnarsson lab public data page for this dataset where you can search
 for cell expression profiles for individual genes.</p></li>
-<li><p>Click on the <code>Browse the genome</code> blue text near the
-bottom of the page.</p></li>
-</ol><p>This loads 18 different tracks, one for each cell type investigated.
+<li>
+<p>Click on the</p>
+<p style="color:blue">
+</p>
+<p>Browse the genome</p>
+
+<p>blue text near the bottom of the page.</p>
+<p>This loads 18 different tracks, one for each cell type investigated.
 The default setting for expression range is quite high and most gene
 expression is not observed with these settings. Each track must be
 configured individually rather than as a group, which takes a lot of
 time.</p>
-<p>We have created a version of this data as a public session in the
-UCSC genome browser, where each track is autoscaled which can make it
-quicker to determine which expression range would be ideal for
-visualising the expression of an individual gene. The data is also
-viewed using ‘Multi-Region’ which hides the introns in the gene models.
-The session is illustrated in the screen shot below and you can access
-this custom track set by clicking on the title in blue text. It is also
-a publicly shared session called <strong>mm10 Linnarsson Celltype
-autoscale</strong> which you can access from the database of public
-sessions.</p>
-<figure><img src="fig/06geneexpression_linnarsson_ntrk2.png" alt="Linnarsson lab mouse cortex single cell data as autoscaled datatracks" class="figure mx-auto d-block"><div class="figcaption"><a href="https://genome.ucsc.edu/cgi-bin/hgTracks?db=mm10&amp;lastVirtModeType=exonMostly&amp;lastVirtModeExtraState=&amp;emGeneTable=knownGene&amp;virtModeType=exonMostly&amp;virtMode=1&amp;nonVirtPosition=chr13%3A58807697%2D59133970&amp;position=chr13%3A58807697%2D59133970&amp;hgsid=1130613507_A81QmYr4dhsQBuI4PbXkGTxoEaZH" class="external-link">Linnarsson
-lab mouse cortex single cell data as autoscaled datatracks</a></div>
+<p>We previously created a version of this data where each track is
+autoscaled which can make it quicker to determine which expression range
+would be ideal for visualising the expression of an individual gene. The
+session is illustrated in the screen shot below. Note that the data is
+also viewed using ‘Multi-Region’ which hides the introns in the gene
+models.</p>
+</li>
+</ol><figure><img src="fig/06geneexpression_linnarsson_ntrk2.png" alt="Linnarsson lab mouse cortex single cell data as autoscaled datatracks" class="figure mx-auto d-block"><div class="figcaption">Linnarsson lab mouse cortex single cell data as
+autoscaled datatracks</div>
 </figure><div id="challenge-6" class="callout discussion">
 <div class="callout-square">
 <i class="callout-icon" data-feather="message-circle"></i>
@@ -564,12 +573,14 @@ lab mouse cortex single cell data as autoscaled datatracks</a></div>
 <div id="challenge-6" class="callout-inner">
 <h3 class="callout-title">CHALLENGE 6</h3>
 <div class="callout-content">
-<p>Select two or three cell types and adjust the scale to best reflect
-differences in gene expression of Ntrk2 between these cells.</p>
+<p>Select two or three cell types in your session and adjust the scale
+to best reflect differences in gene expression of Ntrk2 between these
+cells.</p>
 <p>Save this session and share it.</p>
 </div>
 </div>
 </div>
+<p><br></p>
 <div id="keypoints1" class="callout keypoints">
 <div class="callout-square">
 <i class="callout-icon" data-feather="key"></i>
@@ -578,11 +589,7 @@ differences in gene expression of Ntrk2 between these cells.</p>
 <div class="callout-inner">
 <div class="callout-content">
 <ul><li>The UCSC genome browser allows you to compare gene expression data
-from multiple sources and different species</li>
-<li>You should now be confident using the UCSC genome browser to:
-<ul><li>View your own data in context of other annotations</li>
-<li>Compare a region of one genome to genomes of other species</li>
-</ul></li>
+from multiple different sources and species</li>
 </ul></div>
 </div>
 </div>
@@ -649,8 +656,8 @@ any links that you are not going to use.
   "url": "melbournebioinformatics.github.io/uom-varnish/06_gene_expression_data.html",
   "identifier": "melbournebioinformatics.github.io/uom-varnish/06_gene_expression_data.html",
   "dateCreated": "2025-08-13",
-  "dateModified": "2025-08-13",
-  "datePublished": "2025-08-13"
+  "dateModified": "2025-08-14",
+  "datePublished": "2025-08-14"
 }
 
   </script><script>
