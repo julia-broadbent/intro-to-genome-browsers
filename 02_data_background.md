@@ -1,6 +1,6 @@
 ---
 title: "Data used in this workshop"
-teaching: 15
+teaching: 10
 exercises: 0
 ---
 
