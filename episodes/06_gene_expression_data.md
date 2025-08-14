@@ -158,7 +158,7 @@ This RNAseq data is stranded, meaning you can see if the transcript data is from
 
 1. Click [here](http://linnarssonlab.org/cortex/) for the Linnarsson lab public data page for this dataset where you can search for cell expression profiles for individual genes.
 
-2. Click on the <p style="color:blue">Browse the genome</p> blue text near the bottom of the page.
+2. Click on the `Browse the genome` blue text near the bottom of the page.
   
     This loads 18 different tracks, one for each cell type investigated. The default setting 
     for expression range is quite high and most gene expression is not observed with these settings. 
