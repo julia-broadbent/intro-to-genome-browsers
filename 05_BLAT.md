@@ -130,7 +130,7 @@ c. Zoom out to view the whole gene again.
 
 ## DISCUSS
 
-Do the probes detect coding regions of the NTRK2 gene?
+Do the probes detect coding regions of the *NTRK2* gene?
 
 :::
 
@@ -163,8 +163,7 @@ b. Select  `  Show exons using GENCODE V48  `
 
 ::::::::::::::::::::::::::::::::::::: keypoints 
 
-- We can use the UCSC [BLAT tool](https://genome.ucsc.edu/FAQ/FAQblat.html) to 
-identify region(s) of similarity between a sequence of interest and other parts of the genome.
+- We can use the UCSC BLAT tool to identify region(s) of similarity between a sequence of interest and other parts of the genome.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 

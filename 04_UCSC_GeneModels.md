@@ -64,7 +64,7 @@ Select the `Hide all` button below the genome view.
 
 From the blue bar group labelled `Genes and Gene predictions`, set `GENCODE V48` to `full` 
 and select `Refresh` to turn on the gene modelling track. 
-*Note: the version number 48 may have changed since this workshop was written.*
+*Note: the version number 48 may have changed since this workshop was last updated.*
 
 ![](episodes/fig/04UCSCGeneModels_NTRK2Step3.png)
 
@@ -93,7 +93,7 @@ Which strand is the gene encoded on / transcribed from? (+ or - strand)
 
 ::: solution
 
-## solution
+## Solution
 
 The positive (+) strand. We know this because we can see the right-facing arrow ticks in the intronic regions of the gene model.
 
@@ -107,14 +107,14 @@ Do regions of conservation only occur were there are coding regions?
 
 ::: solution
 
-## solution
+## Solution
 
 Compare the NTRK2 transcript tracks to the gene model representation at the top of this lesson
 and discuss with your neighbour to identify exons, introns and UTRs.
 
 Peaks in the conservation track indicate regions of high conservation across species. 
 Use `drag-and-select` to zoom in to some non-exonic regions of high conservation 
-(you may need to drag and select multiple times to zoom in far enough)
+(you may need to drag and select multiple times to zoom in far enough).
 
 :::
 
@@ -126,7 +126,7 @@ How do they differ?
 
 ::: solution
 
-## solution
+## Solution
 
 Count the number of items in the GENCODE track. Hover over each transcript to view its ID. 
 You may also wish to turn on the `NCBI RefSeq` track to view the NCBI RefSeq transcript IDs.
@@ -145,7 +145,7 @@ Why are some amino acid boxes red or green?
 
 ::: solution
 
-## solution
+## Solution
 
 Green boxes indicate potential start codons, red boxes indicate translation termination codons.
 
@@ -159,7 +159,7 @@ Why do different transcripts have different amino acid numbers?
 
 ::: solution
 
-## solution
+## Solution
 
 Different transcripts may have different exons, or exons of different lengths, 
 so as you move further towards the end of the gene, the amino acid numbers between different 
@@ -179,7 +179,7 @@ this is the transcript you selected from the autocompleted list or the search re
 
 <br>
 
-#### 6. Change the **view settings** for the track 
+#### 6. Change the view settings for the track 
 
 Right click on the track grey bar in the left of the genome window to access view settings. 
 
@@ -191,7 +191,7 @@ Switch between  `dense` ,  `squish` ,  `pack` ,  and  `full`  to see how it chan
 
 a. Right click on the GENCODE track grey bar and select `Configure GENCODE v48` to go to the configuration page.
 
-b. Check the box to also reveal the **Ensembl ID** in the label.
+b. Check the box to also reveal the `Ensembl ID` in the label.
 
 c. Select `Apply` to save your changes.
 
