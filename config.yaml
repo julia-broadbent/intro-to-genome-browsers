@@ -62,11 +62,11 @@ learners:
 - reference.md
 
 # Information for Instructors
-#instructors:
+instructors:
 # - instructor-notes.md
 
 # Learner Profiles
-#profiles:
+profiles:
 # - one-learner.md
 # - another-learner.md
 
