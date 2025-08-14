@@ -58,15 +58,15 @@ episodes:
 # Information for Learners
 learners:
 - setup.md
-- reference.md
 - glossary.md
+- reference.md
 
 # Information for Instructors
 instructors:
 # - instructor-notes.md
 
 # Learner Profiles
-profiles:
+#profiles:
 # - one-learner.md
 # - another-learner.md
 

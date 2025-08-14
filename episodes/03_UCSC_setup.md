@@ -24,8 +24,9 @@ Many of the tools that we will explore in this section can be selected via multi
 - Other tools can be accessed from within the browser window
 
 In the following instructions, we will mostly navigate through successive 
-lower levels from the pull down menu from the top toolbar. An
-example of the notation used in this workshop: the below indicates that you should select <ins>Genome Browser</ins> 
+lower levels from the pull-down menu from the top toolbar. Code-style text indicates buttons to click 
+or options to select from a pull-down menu, with successive instructions indicated by > . 
+For example: the below indicates that you should select <ins>Genome Browser</ins> 
 from the top tool bar and then click on <ins>Reset all user settings</ins>.
 
 `Toolbar     >     Genome Browser    >     Reset all user settings`
@@ -154,7 +155,7 @@ Select  `    text size 12  > submit`
 
 <br>
 
-#### 6. Practice navigating around the genome view
+#### 6. Practise navigating around the genome view
 
 ::: checklist
 
